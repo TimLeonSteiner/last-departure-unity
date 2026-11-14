@@ -41,25 +41,16 @@ namespace YardSurvivalPrototype
         }
         Vector3 FindWaveWeaponPosition()
         {
-            // Flood only walkable cells, including current player-built defenses.
-            var visited = new bool[GridSize, GridSize];
-            var queue = new Queue<Vector2Int>();
-            var start = Cell(player.position); queue.Enqueue(start); visited[start.x,start.y] = true;
+            Vector3 start = player.position;
+            start.y = 0;
             var candidates = new List<Vector3>();
-            while (queue.Count > 0)
+            foreach (var cell in FindReachableWeaponTrailCells(start).Keys)
             {
-                var cell = queue.Dequeue(); var point = World(cell);
-                if (Free(point, .8f, true) && Vector3.Distance(point, player.position) > 5 &&
+                var point = World(cell);
+                if (Free(point, .8f, true) && Vector3.Distance(point, start) > 5 &&
                     Mathf.Abs(point.x) < 20 && Mathf.Abs(point.z) < 20) candidates.Add(point);
-                foreach (var step in Neighbours)
-                {
-                    var next = cell + step;
-                    if (next.x < 0 || next.y < 0 || next.x >= GridSize || next.y >= GridSize || visited[next.x,next.y]) continue;
-                    if (!Free(World(next), PlayerRadius + .1f, true)) continue;
-                    visited[next.x,next.y] = true; queue.Enqueue(next);
-                }
             }
-            return candidates.Count > 0 ? candidates[Random.Range(0,candidates.Count)] : new Vector3(player.position.x,0,player.position.z);
+            return candidates.Count > 0 ? candidates[Random.Range(0,candidates.Count)] : start;
         }
         static InventoryWeapon NewWaveWeapon(int id)
         {

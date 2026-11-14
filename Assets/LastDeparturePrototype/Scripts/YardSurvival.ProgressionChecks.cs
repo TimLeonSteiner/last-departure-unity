@@ -26,6 +26,9 @@ namespace YardSurvivalPrototype
             var first = pickups[0];
             check(first.marker != null && first.marker.parent == first.body && first.marker.localPosition.y > 0,
                 "Wave weapon has a holographic arrow above it");
+            UpdateWeaponTrail();
+            check(weaponTrailRenderer != null && weaponTrailRenderer.enabled && weaponTrailMesh.vertexCount >= 4 &&
+                weaponTrailMaterial.shader.isSupported, "Wave one renders a supported floor trail to the weapon");
             check(first.body.GetComponent<Light>() == null, "Wave weapon has no extra dynamic light");
             var markerMaterial = first.marker.GetComponent<MeshRenderer>().sharedMaterial;
             foreach (var renderer in first.body.GetComponentsInChildren<Renderer>())
@@ -37,6 +40,7 @@ namespace YardSurvivalPrototype
             player.position = first.position + Vector3.up * .65f;
             check(NearbyPickup() == first && TakePickup(first), "Nearby interaction collects the weapon");
             check(pickups.Count == 0 && weaponId == 14 && weaponInventory.Count == 2, "Wave-one reward adds a distinct weapon");
+            check(!weaponTrailRenderer.enabled, "Collecting the wave weapon hides its floor trail");
             check(!TakePickup(first), "Collected pickup cannot be claimed twice");
             SpawnWaveWeapons(1); check(pickups.Count == 0, "Collected weapon does not respawn in same wave");
             wave = 2; SpawnWaveWeapons(2); var second = pickups[0];

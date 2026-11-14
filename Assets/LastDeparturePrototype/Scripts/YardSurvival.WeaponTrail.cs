@@ -31,6 +31,8 @@ namespace YardSurvivalPrototype
             if (target == null) { HideWeaponTrail(); return; }
             Vector3 start = player.position;
             start.y = 0;
+            Vector3 destination = target.position;
+            destination.y = 0;
             if (target == weaponTrailTarget && Time.unscaledTime < nextWeaponTrailUpdate) return;
             bool moved = target != weaponTrailTarget || (start - weaponTrailStart).sqrMagnitude >= .25f;
             // Refresh occasionally even when stationary so changing defenses can reroute the trail.
@@ -38,7 +40,7 @@ namespace YardSurvivalPrototype
             weaponTrailTarget = target;
             weaponTrailStart = start;
             nextWeaponTrailUpdate = Time.unscaledTime + .5f;
-            var route = FindWeaponTrail(start, target.position);
+            var route = FindWeaponTrail(start, destination);
             if (route.Count < 2)
             {
                 if (weaponTrailRenderer != null) weaponTrailRenderer.enabled = false;
@@ -162,7 +164,31 @@ namespace YardSurvivalPrototype
                 return route;
             }
 
-            Vector2Int source = Cell(start), goal = Cell(target);
+            Vector2Int goal = Cell(target);
+            var previous = FindReachableWeaponTrailCells(start, goal);
+            if (!previous.ContainsKey(goal) || !WeaponTrailSegmentClear(World(goal), target)) return route;
+            route.Add(target);
+            for (Vector2Int cell = goal; ; cell = previous[cell])
+            {
+                Vector3 point = World(cell);
+                if ((route[route.Count - 1] - point).sqrMagnitude > .0001f) route.Add(point);
+                if (previous[cell] == cell) break;
+            }
+            if ((route[route.Count - 1] - start).sqrMagnitude > .0001f) route.Add(start);
+            route.Reverse();
+            for (int i = 0; i + 2 < route.Count;)
+            {
+                int shortcut = route.Count - 1;
+                while (shortcut > i + 1 && !WeaponTrailSegmentClear(route[i], route[shortcut])) shortcut--;
+                if (shortcut > i + 1) route.RemoveRange(i + 1, shortcut - i - 1);
+                i++;
+            }
+            return route;
+        }
+
+        Dictionary<Vector2Int, Vector2Int> FindReachableWeaponTrailCells(Vector3 start, Vector2Int? goal = null)
+        {
+            Vector2Int source = Cell(start);
             var previous = new Dictionary<Vector2Int, Vector2Int>();
             var queue = new Queue<Vector2Int>();
             for (int x = -1; x <= 1; x++)
@@ -174,7 +200,7 @@ namespace YardSurvivalPrototype
                 queue.Enqueue(cell);
             }
 
-            while (queue.Count > 0 && !previous.ContainsKey(goal))
+            while (queue.Count > 0 && (!goal.HasValue || !previous.ContainsKey(goal.Value)))
             {
                 Vector2Int current = queue.Dequeue();
                 foreach (Vector2Int direction in Neighbours)
@@ -187,23 +213,7 @@ namespace YardSurvivalPrototype
                 }
             }
 
-            if (!previous.ContainsKey(goal) || !WeaponTrailSegmentClear(World(goal), target)) return route;
-            route.Add(target);
-            for (Vector2Int cell = goal; ; cell = previous[cell])
-            {
-                route.Add(World(cell));
-                if (previous[cell] == cell) break;
-            }
-            route.Add(start);
-            route.Reverse();
-            for (int i = 0; i + 2 < route.Count;)
-            {
-                int shortcut = route.Count - 1;
-                while (shortcut > i + 1 && !WeaponTrailSegmentClear(route[i], route[shortcut])) shortcut--;
-                if (shortcut > i + 1) route.RemoveRange(i + 1, shortcut - i - 1);
-                i++;
-            }
-            return route;
+            return previous;
         }
 
         static bool IsWeaponTrailCell(Vector2Int cell) =>
