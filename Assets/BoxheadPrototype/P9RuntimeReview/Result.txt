@@ -1,0 +1,45 @@
+09.10.2026 21:58:36 Hip weapon=2 aim=0 local=(0.14, -0.23, 0.28)
+09.10.2026 21:58:38 ADS weapon=2 aim=0 local=(0.14, -0.23, 0.28)
+FAIL System.Exception: Normal ADS input did not reach full aim; binding/focus needs manual review
+  at RuntimeP9Review.Poll () [0x001ec] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RuntimeP9Review.cs:29 
+09.10.2026 22:00:06 Hip weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:00:08 ADS weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+FAIL System.Exception: Normal ADS input did not reach full aim; binding/focus needs manual review
+  at RuntimeP9Review.Poll () [0x00228] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RuntimeP9Review.cs:29 
+09.10.2026 22:01:09 Hip weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:01:11 ADS weapon=2 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.10, 0.25)
+09.10.2026 22:01:16 ADS-AfterReload weapon=2 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.10, 0.25)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:07:24 02-Hip weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:07:26 02-ADS weapon=2 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.16, -0.02)
+09.10.2026 22:07:31 02-ADS-AfterReload weapon=2 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.16, -0.02)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:07:32 12-Hip weapon=12 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:07:34 12-ADS weapon=12 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.12, 0.05)
+09.10.2026 22:07:39 12-ADS-AfterReload weapon=12 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.12, 0.05)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:07:40 00-Hip weapon=0 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:07:42 00-ADS weapon=0 aim=1 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.16, 0.23)
+09.10.2026 22:07:47 00-ADS-AfterReload weapon=0 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+FAIL System.Exception: Reload/ADS did not finish
+  at RuntimeP9Review.Poll () [0x0031d] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RuntimeP9Review.cs:30 
+09.10.2026 22:12:48 02-Hip weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:12:50 02-ADS weapon=2 aim=0 enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+FAIL System.Exception: Normal ADS input did not reach full aim; binding/focus needs manual review
+  at RuntimeP9Review.Poll () [0x00291] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RuntimeP9Review.cs:29 
+09.10.2026 22:14:59 02-Hip weapon=2 aim=0 focused=True frame=1197 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:15:01 02-ADS weapon=2 aim=1 focused=True frame=1403 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.17, 0.04)
+09.10.2026 22:15:04 02-ADS-AfterReload weapon=2 aim=1 focused=True frame=1776 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.17, 0.04)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:15:05 12-Hip weapon=12 aim=0 focused=True frame=1878 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:15:07 12-ADS weapon=12 aim=1 focused=True frame=2087 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.12, 0.05)
+09.10.2026 22:15:12 12-ADS-AfterReload weapon=12 aim=1 focused=True frame=2582 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.12, 0.05)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:15:13 00-Hip weapon=0 aim=0 focused=True frame=2680 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:15:15 00-ADS weapon=0 aim=1 focused=True frame=2882 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.15, 0.24)
+09.10.2026 22:15:22 00-ADS-AfterReload weapon=0 aim=1 focused=True frame=3616 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.15, 0.24)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.
+09.10.2026 22:15:23 15-Hip weapon=15 aim=0 focused=True frame=3715 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.14, -0.23, 0.28)
+09.10.2026 22:15:25 15-ADS weapon=15 aim=1 focused=True frame=3920 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.14, 0.40)
+09.10.2026 22:15:30 15-ADS-AfterReload weapon=15 aim=1 focused=True frame=4413 paused=False enabled=True timescale=1 cursor=Locked mouse=False screen=Game local=(0.00, -0.14, 0.40)
+COMPLETE normal gameplay update: hip, ADS, reload, ADS again. Visual review required.

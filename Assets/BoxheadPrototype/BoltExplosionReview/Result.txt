@@ -1,0 +1,1 @@
+COMPLETE 2026-10-09T22:58:11: actual fired explosive crossbow projectile, real runtime blast captured at5ages. Inspect fire/sparks/debris/smoke/dust/ring. No damage or effect simulation substituted.

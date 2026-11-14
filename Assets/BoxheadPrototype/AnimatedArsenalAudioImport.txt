@@ -1,0 +1,1 @@
+PASS: completed manifest connected to 17 banks, separate motor/impact/explosion and jump/landing events; existing warehouse reflections and music retained.

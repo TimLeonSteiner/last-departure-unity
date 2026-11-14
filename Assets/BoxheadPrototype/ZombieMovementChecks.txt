@@ -1,0 +1,1 @@
+ZOMBIE MOVEMENT PASS: distance-driven gait, stationary feet, animated travel, attack transition, smooth route-facing turns on both humanoid rigs.

@@ -1,0 +1,245 @@
+{
+  "status": "asset checks passed; Unity import and Play listening pending",
+  "checks": [
+    {
+      "file": "Zombie_Idle_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.8165,
+      "peak": 0.800018310546875,
+      "sha256": "18b3c5fd500d1aa8f744691aa1e2075b31ee223ca3ca7d5c09acd421814140c7"
+    },
+    {
+      "file": "Zombie_Idle_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 3.0,
+      "peak": 0.800018310546875,
+      "sha256": "1ae7068cdc35b6e2692ccaa99dc025758ebed30795c68b7ab06d41f1d53b5a40"
+    },
+    {
+      "file": "Zombie_Idle_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.6782291666666667,
+      "peak": 0.79998779296875,
+      "sha256": "91cdddc303dd4104513148040b018c58df4f493820bfb5f84b8e17d843a35b30"
+    },
+    {
+      "file": "Zombie_Idle_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.998854166666667,
+      "peak": 0.800018310546875,
+      "sha256": "5777f359988e22ca2b43e8641bf20174dafdec22eb40e5c6796a5d1cba2727fc"
+    },
+    {
+      "file": "Zombie_Attack_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.9239375,
+      "peak": 0.79998779296875,
+      "sha256": "8889a9b44eb975dab687e06b0a84ce629cab0deadf5571074e469ce7a25e3cbb"
+    },
+    {
+      "file": "Zombie_Attack_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 3.0,
+      "peak": 0.79998779296875,
+      "sha256": "c7077412ff3d6e96658ac0947184d466564ca3c96f598425284adf01abcc1d30"
+    },
+    {
+      "file": "Zombie_Attack_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.8343125,
+      "peak": 0.800018310546875,
+      "sha256": "c8f78df599029ee34eb1158c0ff27ae8ae4a5f7069adb545744904f5cf0cdd02"
+    },
+    {
+      "file": "Zombie_Attack_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 3.0,
+      "peak": 0.800018310546875,
+      "sha256": "65fdae5218d44f443e8a972d368e1083c53ab291f647515aab7c6198c892fd0f"
+    },
+    {
+      "file": "Zombie_Pain_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 3.0,
+      "peak": 0.800018310546875,
+      "sha256": "b67306a7aa21ce20a0d836f5e83d1de01a795aab53c0ceeb9eba68aeb063d071"
+    },
+    {
+      "file": "Zombie_Pain_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.5617708333333336,
+      "peak": 0.79998779296875,
+      "sha256": "483f9da56b8c9edc518638c0ef74818333459ca72c09e5ae6ba897e18ae6c268"
+    },
+    {
+      "file": "Zombie_Pain_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.9613958333333334,
+      "peak": 0.79998779296875,
+      "sha256": "4c85632785123ef3e08e0456ce12f054d0abc86db7e4343ddc7255b9d97534f9"
+    },
+    {
+      "file": "Zombie_Pain_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.9997708333333333,
+      "peak": 0.800018310546875,
+      "sha256": "464ada62a58864b849fb3269a171e6934fa55db0cbd2cdb72c7fc574c0278501"
+    },
+    {
+      "file": "Zombie_Death_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.86975,
+      "peak": 0.79998779296875,
+      "sha256": "93782b3e1833b2d027ca2836170df4d473b4975616ab40f9ba7cf2b141920f5a"
+    },
+    {
+      "file": "Zombie_Death_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.4672083333333332,
+      "peak": 0.79998779296875,
+      "sha256": "f1c57b4c75a41533bb528f963614b2d5dbcb19e89a75c331daefbca185ea2b1e"
+    },
+    {
+      "file": "Zombie_Death_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 1.979,
+      "peak": 0.800018310546875,
+      "sha256": "a78ea0542b027e95a10e6d37f4454defb61bce43b4bc7e21f18b4bf4d8a9ba33"
+    },
+    {
+      "file": "Zombie_Death_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.0348333333333333,
+      "peak": 0.79998779296875,
+      "sha256": "a048dff7d11fb5e33e7ea2d9036e59eb72e5ef18d853fd8cfcd802e366faf786"
+    },
+    {
+      "file": "Zombie_Hiss_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.4898125,
+      "peak": 0.79998779296875,
+      "sha256": "1f49d491575ca6bf7f05b44e39d1dea99725886ce5d717a971b4286f082db983"
+    },
+    {
+      "file": "Zombie_Hiss_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.986875,
+      "peak": 0.800018310546875,
+      "sha256": "3ecee194347904567d17b8d217817b681895b8d84d7d3825bf575f1ef9484b46"
+    },
+    {
+      "file": "Zombie_Hiss_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.605208333333333,
+      "peak": 0.800018310546875,
+      "sha256": "ab26220f73c6dc2067f0d95d378eaae92d17cc8ed2aa6e6d0bcf1d7c50819e5b"
+    },
+    {
+      "file": "Zombie_Hiss_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.99975,
+      "peak": 0.79998779296875,
+      "sha256": "1fdce0397e950a6fcc0e5cc8ce79e0592d964bdf735d2efaa4a78ed35693b923"
+    },
+    {
+      "file": "Zombie_Gag_01.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.1185416666666668,
+      "peak": 0.800018310546875,
+      "sha256": "d2417f2517b9e3f4a5c6f76874fa64de4071f05715da806ec6acabf8b6ba5eed"
+    },
+    {
+      "file": "Zombie_Gag_02.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.9909791666666665,
+      "peak": 0.800018310546875,
+      "sha256": "b367d823adc6798d0e147b9ea914a4aa175fd119099d77a9b8ce50bea3732319"
+    },
+    {
+      "file": "Zombie_Gag_03.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 2.8899583333333334,
+      "peak": 0.79998779296875,
+      "sha256": "c1cd293a2573bc303f970539a1862f1eb2c122324cb7115e818bd0e237089cb0"
+    },
+    {
+      "file": "Zombie_Gag_04.wav",
+      "guid_preserved": true,
+      "scene_reference": true,
+      "sampleRate": 48000,
+      "channels": 1,
+      "seconds": 3.0,
+      "peak": 0.800018310546875,
+      "sha256": "760a9b53fb75b17289013731f577b516eaab99d175b5c4d8eac256f10b2d4297"
+    }
+  ]
+}

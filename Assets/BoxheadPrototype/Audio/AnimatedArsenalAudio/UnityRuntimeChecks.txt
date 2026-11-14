@@ -1,0 +1,2 @@
+AUDIO PASS: 17 weapon banks, existing licensed sound families reused, loaded PCM output and sentry shot validated.
+PLAY MODE AUDIO PASS: all 17 banks use AnimatedArsenalAudio; 112 clip references decoded as non-silent mono samples at 48kHz (or WebGL's 44.1kHz import rate), special events and movement variations loaded, reload closing actions not duplicated.

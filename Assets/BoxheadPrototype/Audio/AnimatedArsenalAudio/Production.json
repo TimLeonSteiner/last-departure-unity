@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Minigun_MotorStart",
+    "prompt": "Minigun motor start: isolated rotary weapon electric motor winding up, heavy six-barrel assembly accelerating from a low mechanical whirr to a tight high rotating whine with brief gear rattle. Dry close foley, one start only, no firing, no music, voices, ambience or echo.",
+    "limit": 0.75,
+    "peak": 0.42,
+    "download": "C:/Users/Eridi/Downloads/Minigun_motor_start__#1-1791569022168.wav"
+  },
+  {
+    "name": "Minigun_MotorStop",
+    "prompt": "Minigun motor stop: isolated electric rotary gun motor powering down, six steel barrels rapidly decelerate from a taut rotating whine to a low mechanical whirr, small final gear click. Dry close realistic foley, one stop, no shots, no music, voices, ambience or echo.",
+    "limit": 0.75,
+    "peak": 0.42,
+    "download": "C:/Users/Eridi/Downloads/Minigun_motor_stop_i_#1-1791569074491.wav"
+  },
+  {
+    "name": "Minigun_Shot",
+    "prompt": "Minigun single cycle: exactly one unsuppressed 7.62 rotary machine gun discharge. Hard explosive close muzzle crack, tight low punch and very brief fast rotary bolt clack. One shot only with immediate attack and tiny dry decay. No burst or motor startup, no continuous loop, music, voices, ambience or echo.",
+    "limit": 0.16,
+    "transient": true,
+    "peak": 0.7,
+    "download": "C:/Users/Eridi/Downloads/Minigun_single_cycle_#1-1791569166953.wav"
+  },
+  {
+    "name": "Minigun_Reload",
+    "prompt": "Minigun ammo reload: dry close mechanical foley of a compact rotary minigun ammunition box swap. Release steel latch, detach box, seat fresh box, short belt cartridge rattle, close feed cover with firm clack. One sequence, no firing, motor or charging, no speech, music or ambience.",
+    "limit": 2.15,
+    "transient": false,
+    "peak": 0.72,
+    "download": "C:/Users/Eridi/Downloads/Minigun_ammo_reload__#1-1791569261741.wav"
+  },
+  {
+    "name": "Grenade_Launch",
+    "prompt": "Grenade launcher launch: exactly one low velocity 40mm grenade fired from a single shot shoulder launcher, deep hollow thoomp with short pressurized muzzle puff and heavy breech clunk. Distinct from rifle fire, one immediate dry launch only, no explosion, echo, music, voices or ambience.",
+    "limit": 0.45,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Grenade_launcher_lau_#1-1791569269978.wav"
+  },
+  {
+    "name": "Grenade_Explosion",
+    "prompt": "Grenade impact explosion: exactly one close 40mm high explosive grenade detonation. Sharp initial crack, heavy compact bass pressure thud and short gritty debris patter against concrete. Dry direct tactical game source, one explosion only, no launch, rifle shots, long echo, music, voices or ambience.",
+    "duration": 1,
+    "limit": 0.9,
+    "transient": true,
+    "peak": 0.82,
+    "download": "C:/Users/Eridi/Downloads/Grenade_impact_explo_#1-1791569355715.wav"
+  },
+  {
+    "name": "Grenade_Reload",
+    "prompt": "Grenade breech reload: dry close foley of single shot break open grenade launcher. Unlatch and open heavy breech, extract spent 40mm casing, insert one chunky fresh grenade round and snap barrel shut. One quick complete reload, no shots, explosions, speech, music, ambience or echo.",
+    "duration": 2.7,
+    "limit": 2.65,
+    "peak": 0.68,
+    "download": "C:/Users/Eridi/Downloads/Grenade_breech_reloa_#1-1791569400008.wav"
+  },
+  {
+    "name": "Crossbow_Shot",
+    "prompt": "Crossbow bolt release: exactly one realistic crossbow fired. Taut bowstring snaps forward with sharp woody twang, limbs flex with dry clack and a short fast bolt air swish. Immediate crisp release, no firearm blast, no reload, music, speech, ambience or long reverb.",
+    "duration": 0.5,
+    "limit": 0.4,
+    "transient": true,
+    "peak": 0.62,
+    "download": "C:/Users/Eridi/Downloads/Crossbow_bolt_releas_#1-1791569420760.wav"
+  },
+  {
+    "name": "Crossbow_Cock",
+    "prompt": "Crossbow cock and load: dry close mechanical foley, pull taut crossbow string back against spring tension, engage trigger sear with solid click, lay a wooden bolt into the guide rail and settle it. One controlled reload sequence, no firing, gunshot, music, speech, ambience or echo.",
+    "duration": 2.5,
+    "limit": 2.45,
+    "peak": 0.6,
+    "download": "C:/Users/Eridi/Downloads/Crossbow_cock_and_lo_#1-1791569509691.wav"
+  },
+  {
+    "name": "Crossbow_Impact",
+    "prompt": "Crossbow bolt impact: one fast wooden arrow with steel point strikes rough concrete, sharp hard tick followed by brief wood shaft rattle and tiny fragments. Short dry close tactile impact, no gunfire, blast, whoosh, music, voice or ambience.",
+    "duration": 0.5,
+    "limit": 0.35,
+    "transient": true,
+    "peak": 0.5,
+    "download": "C:/Users/Eridi/Downloads/Crossbow_bolt_impact_#1-1791569560574.wav"
+  },
+  {
+    "name": "Knife_Swing",
+    "prompt": "Knife slash swing: one short quick combat knife swing through air, tight dry airy swish with subtle jacket sleeve rustle, close first person foley. Light small blade, no impact, no cartoon whistle, gunshot, music, speech or ambience.",
+    "duration": 0.5,
+    "limit": 0.32,
+    "transient": true,
+    "peak": 0.32,
+    "download": "C:/Users/Eridi/Downloads/Knife_slash_swing_on_#1-1791569592228.wav"
+  },
+  {
+    "name": "Knife_Stab",
+    "prompt": "Knife forward stab: one quick short combat knife thrust through air, tight low swish and restrained tactical sleeve movement with a short handle creak. Dry close foley, no target contact, no voices, breath, gunfire, music or ambience.",
+    "duration": 0.5,
+    "limit": 0.3,
+    "transient": true,
+    "peak": 0.3,
+    "download": "C:/Users/Eridi/Downloads/Knife_forward_stab_o_#1-1791569618710.wav"
+  },
+  {
+    "name": "Knife_Impact",
+    "prompt": "Knife flesh impact: exactly one close combat knife puncture into a thick soft flesh target, restrained wet compact thud and short fibrous tear, immediate tactile contact. Dry isolated game foley, no voices, scream, breath, swing, gunshot, explosion, music, ambience or echo.",
+    "duration": 0.5,
+    "limit": 0.35,
+    "transient": true,
+    "peak": 0.46,
+    "download": "C:/Users/Eridi/Downloads/Knife_flesh_impact_e_#1-1791569655330.wav"
+  },
+  {
+    "name": "Pitchfork_Swing",
+    "prompt": "Pitchfork heavy swing: one fast sweep of a long wooden farm pitchfork with three steel tines through air. Broad low air swish, small dry wooden shaft creak and sleeve rustle. Real close weapon foley, no target impact, cartoon whistle, gunshot, voice, music or ambience.",
+    "duration": 0.6,
+    "limit": 0.5,
+    "transient": true,
+    "peak": 0.38,
+    "download": "C:/Users/Eridi/Downloads/Pitchfork_heavy_swin_#1-1791569715805.wav"
+  },
+  {
+    "name": "Pitchfork_Stab",
+    "prompt": "Pitchfork forward stab: exactly one sharp thrust of a long wooden pitchfork shaft with three steel tines. Broad short air rush, restrained wood handle creak and cloth sleeve friction. Close dry tactile foley, no contact, gunfire, whistle, music, voice, breath or ambience.",
+    "duration": 0.5,
+    "limit": 0.4,
+    "transient": true,
+    "peak": 0.38,
+    "download": "C:/Users/Eridi/Downloads/Pitchfork_forward_st_#1-1791569737860.wav"
+  },
+  {
+    "name": "Pitchfork_Impact",
+    "prompt": "Pitchfork flesh contact: one three-tined steel farm pitchfork puncturing a dense soft target. Weighty compact wet thud, brief three-point crunchy fibrous contact and slight wooden handle resonance. Dry short game foley, no scream, speech, gunshot, explosion, music, ambience or reverb.",
+    "duration": 0.6,
+    "limit": 0.42,
+    "transient": true,
+    "peak": 0.52,
+    "download": "C:/Users/Eridi/Downloads/Pitchfork_flesh_cont_#1-1791569761478.wav"
+  },
+  {
+    "name": "Sawnoff_Shot",
+    "prompt": "Sawed off shotgun shot: exactly one unsuppressed short double barrel twelve gauge discharge. Fierce broad explosive crack, deep compact chest punch and short coarse muzzle puff, raw close tactical pressure. One shot only, no second discharge, reload, music, speech, ambience or long echo.",
+    "duration": 0.7,
+    "limit": 0.55,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Sawed_off_shotgun_sh_#1-1791569788094.wav"
+  },
+  {
+    "name": "Sawnoff_Reload",
+    "prompt": "Dual sawed off reload: dry close foley of two compact double barrel shotguns being reloaded. Open two break actions with heavy hinge clacks, eject spent shells, insert four plastic twelve gauge shells in two pairs, snap both breeches shut with firm steel clunks. One quick sequence, no pump, rifle magazine, shots, speech, music or ambience.",
+    "duration": 2.8,
+    "limit": 2.65,
+    "peak": 0.68,
+    "download": "C:/Users/Eridi/Downloads/Dual_sawed_off_reloa_#1-1791569809834.wav"
+  },
+  {
+    "name": "Sawnoff_Break",
+    "prompt": "Sawed off break action: one compact double barrel shotgun breech opened with a steel latch click and dry hinge clack, then closed with a heavy firm clunk. Short two part mechanism only, no shells, pump, firing, voice, music, ambience or echo.",
+    "duration": 0.7,
+    "limit": 0.6,
+    "peak": 0.62,
+    "download": "C:/Users/Eridi/Downloads/Sawed_off_break_acti_#1-1791569830114.wav"
+  },
+  {
+    "name": "DualSMG_Reload",
+    "prompt": "Dual SMG magazine reload: dry close foley of two compact steel submachine guns. Release and remove two long straight box magazines, insert two fresh slim steel magazines into receivers with firm paired clicks. Quick two handed swap, no drum, firing, bolt charging, voice, music, ambience or echo.",
+    "duration": 2.1,
+    "limit": 1.95,
+    "peak": 0.62,
+    "download": "C:/Users/Eridi/Downloads/Dual_SMG_magazine_re_#1-1791569856212.wav"
+  },
+  {
+    "name": "Beretta_Shot",
+    "prompt": "Beretta close pistol shot: exactly one unsuppressed 9mm service pistol discharge, aggressive razor sharp initial muzzle crack, strong chesty low-mid pressure punch and gritty dense body, crisp short steel slide snap underneath. Visceral realistic tactical first person recording, immediate attack, very short dry decay. Powerful controlled saturation without clipping. No second shot, long hall, ambience, music or speech.",
+    "duration": 0.5,
+    "limit": 0.29,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Beretta_close_pistol_#1-1791569890379.wav"
+  },
+  {
+    "name": "Beretta_Shot_Take02",
+    "prompt": "Beretta close pistol shot: exactly one unsuppressed 9mm service pistol discharge, aggressive razor sharp initial muzzle crack, strong chesty low-mid pressure punch and gritty dense body, crisp short steel slide snap underneath. Visceral realistic tactical first person recording, immediate attack, very short dry decay. Powerful controlled saturation without clipping. No second shot, long hall, ambience, music or speech.",
+    "duration": 0.5,
+    "limit": 0.29,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Beretta_close_pistol_#2-1791569890414.wav"
+  },
+  {
+    "name": "Beretta_Shot_Take03",
+    "prompt": "Beretta close pistol shot: exactly one unsuppressed 9mm service pistol discharge, aggressive razor sharp initial muzzle crack, strong chesty low-mid pressure punch and gritty dense body, crisp short steel slide snap underneath. Visceral realistic tactical first person recording, immediate attack, very short dry decay. Powerful controlled saturation without clipping. No second shot, long hall, ambience, music or speech.",
+    "duration": 0.5,
+    "limit": 0.29,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Beretta_close_pistol_#3-1791569890402.wav"
+  },
+  {
+    "name": "HeavyPistol_Shot",
+    "prompt": "Heavy pistol Deagle shot: exactly one unsuppressed large caliber semiautomatic handgun discharge. Brutal deep concussive chest thump under a ripping sharp muzzle crack, dense gritty low-mid body and short massive steel slide clack. Clearly heavier and deeper than a 9mm pistol. Immediate attack, short dry powerful tail, controlled saturation with clean headroom. No second shot, echo, music, voice or ambience.",
+    "duration": 0.7,
+    "limit": 0.43,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Heavy_pistol_Deagle__#1-1791569989811.wav"
+  },
+  {
+    "name": "HeavyPistol_Shot_Take02",
+    "prompt": "Heavy pistol Deagle shot: exactly one unsuppressed large caliber semiautomatic handgun discharge. Brutal deep concussive chest thump under a ripping sharp muzzle crack, dense gritty low-mid body and short massive steel slide clack. Clearly heavier and deeper than a 9mm pistol. Immediate attack, short dry powerful tail, controlled saturation with clean headroom. No second shot, echo, music, voice or ambience.",
+    "duration": 0.7,
+    "limit": 0.43,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Heavy_pistol_Deagle__#2-1791569989836.wav"
+  },
+  {
+    "name": "HeavyPistol_Shot_Take03",
+    "prompt": "Heavy pistol Deagle shot: exactly one unsuppressed large caliber semiautomatic handgun discharge. Brutal deep concussive chest thump under a ripping sharp muzzle crack, dense gritty low-mid body and short massive steel slide clack. Clearly heavier and deeper than a 9mm pistol. Immediate attack, short dry powerful tail, controlled saturation with clean headroom. No second shot, echo, music, voice or ambience.",
+    "duration": 0.7,
+    "limit": 0.43,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Heavy_pistol_Deagle__#3-1791569989796.wav"
+  },
+  {
+    "name": "HeavyPistol_Reload",
+    "prompt": "Heavy pistol magazine reload: dry close foley of a massive large caliber semiautomatic pistol. Thumb the magazine catch, pull out heavy short seven round steel magazine, insert a fresh chunky magazine and seat it with a strong low metallic click. One complete swap, no slide rack, firing, speech, music, ambience or echo.",
+    "duration": 2.6,
+    "limit": 2.55,
+    "peak": 0.68,
+    "download": "C:/Users/Eridi/Downloads/Heavy_pistol_magazin_#1-1791570054375.wav"
+  },
+  {
+    "name": "HeavyRifle_Shot",
+    "prompt": "Heavy battle rifle shot: exactly one unsuppressed full power 7.62 rifle discharge. Deep authoritative low-mid concussion, sharp ripping muzzle crack and short steel closed bolt clack, heavier than intermediate cartridge rifles. One immediate visceral dry tactical shot, tight bass body, no burst, long echo, music, voices or ambience.",
+    "duration": 0.6,
+    "limit": 0.33,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Heavy_battle_rifle_s_#1-1791570072370.wav"
+  },
+  {
+    "name": "HeavyRifle_Reload",
+    "prompt": "Heavy rifle box reload: one dry close full power battle rifle magazine swap. Press steel paddle release, remove a heavy straight twenty round box magazine, rock a fresh steel magazine firmly into receiver with heavy latch clack and short cartridge rattle. No charging handle, firing, music, voice, ambience or echo.",
+    "duration": 3.3,
+    "limit": 3.2,
+    "peak": 0.7,
+    "download": "C:/Users/Eridi/Downloads/Heavy_rifle_box_relo_#1-1791570092317.wav"
+  },
+  {
+    "name": "FAL_Shot",
+    "prompt": "FAL battle rifle shot: exactly one unsuppressed 7.62 NATO FAL discharge, hard chesty low bass punch under a loud sharp metallic cracked report, brief robust steel tilting bolt receiver clatter. Visceral gritty dry close tactical shot with immediate attack and short controlled tail. No burst, second shot, long echo, music, voice or ambience.",
+    "duration": 0.6,
+    "limit": 0.29,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/FAL_battle_rifle_sho_#1-1791570110629.wav"
+  },
+  {
+    "name": "FAL_Reload",
+    "prompt": "FAL magazine reload: one close dry foley sequence, release worn steel twenty round FAL magazine, pull and rock it forward out of receiver, hook fresh full power rifle box magazine into front lug and rock it back until steel catch clacks. Distinct firm metal handling, no charging, shots, voice, music, ambience or echo.",
+    "duration": 2.6,
+    "limit": 2.55,
+    "peak": 0.68,
+    "download": "C:/Users/Eridi/Downloads/FAL_magazine_reload__#1-1791570131251.wav"
+  },
+  {
+    "name": "Talon_Shot",
+    "prompt": "Talon pistol shot: exactly one unsuppressed heavy eight round steel semiautomatic pistol discharge. Low woody punch under a short sharp cracked muzzle report, dense gritty pressure and brisk steel hammer slide clack. Dry close realistic tactical source, distinct mid weight handgun, no burst, reload, long echo, voice, music or ambience.",
+    "duration": 0.6,
+    "limit": 0.34,
+    "transient": true,
+    "peak": 0.8,
+    "download": "C:/Users/Eridi/Downloads/Talon_pistol_shot_ex_#1-1791570159601.wav"
+  },
+  {
+    "name": "Talon_Reload",
+    "prompt": "Talon pistol reload: one dry close eight round steel handgun magazine swap. Press small metal release, pull slim short magazine free, fresh slim magazine slides into grip and seats with a firm springy steel click, light grip handling. No slide rack, shots, speech, music, ambience or echo.",
+    "duration": 2.6,
+    "limit": 2.55,
+    "peak": 0.6,
+    "download": "C:/Users/Eridi/Downloads/Talon_pistol_reload__#1-1791570191910.wav"
+  },
+  {
+    "name": "Persuader_Shot",
+    "prompt": "Persuader steel SMG shot: exactly one unsuppressed vintage wood stock steel box-magazine .45 submachine gun discharge. Deep compact chesty thump, short sharp gritty cracked muzzle report and chunky open bolt receiver snap. Very short tight dry decay for fast automatic fire. No burst, second shot, reload, echo, music, voice or ambience.",
+    "duration": 0.5,
+    "limit": 0.2,
+    "transient": true,
+    "peak": 0.76,
+    "download": "C:/Users/Eridi/Downloads/Persuader_steel_SMG__#1-1791570214188.wav"
+  },
+  {
+    "name": "Persuader_Reload",
+    "prompt": "Persuader SMG box reload: dry close foley of vintage wood stock steel submachine gun. Release long straight .45 box magazine, slide it downward off receiver guide, slide fresh steel magazine upward into guide and lock it with a firm catch clack, short brass rattle. One sequence, no drum, bolt rack, firing, music, voice or ambience.",
+    "duration": 2.7,
+    "limit": 2.65,
+    "peak": 0.65,
+    "download": "C:/Users/Eridi/Downloads/Persuader_SMG_box_re_#1-1791570241334.wav"
+  },
+  {
+    "name": "Grenade_Breech",
+    "prompt": "Grenade launcher breech action: one quick steel break open launcher latch and hinge opened with heavy clack, then breech snapped closed with a compact firm low metallic clunk. Dry close mechanism only, no cartridge insertion, firing, blast, music, voice, ambience or echo.",
+    "duration": 0.6,
+    "limit": 0.5,
+    "peak": 0.66,
+    "download": "C:/Users/Eridi/Downloads/Grenade_launcher_bre_#1-1791570280279.wav"
+  },
+  {
+    "name": "Jump_01",
+    "prompt": "Tactical jump boots: exactly one realistic small jump takeoff, rubber-soled combat boots push and scuff off rough warehouse concrete, short restrained trousers and jacket cloth movement. Subtle weight and clean dry tactile detail, no landing, boing, cartoon spring, grunt, breath, voice, music, gunshot or long hall.",
+    "duration": 0.5,
+    "limit": 0.36,
+    "transient": true,
+    "peak": 0.38,
+    "download": "C:/Users/Eridi/Downloads/Tactical_jump_boots__#1-1791570302202.wav"
+  },
+  {
+    "name": "Jump_02",
+    "prompt": "Tactical jump boots: exactly one realistic small jump takeoff, rubber-soled combat boots push and scuff off rough warehouse concrete, short restrained trousers and jacket cloth movement. Subtle weight and clean dry tactile detail, no landing, boing, cartoon spring, grunt, breath, voice, music, gunshot or long hall.",
+    "duration": 0.5,
+    "limit": 0.36,
+    "transient": true,
+    "peak": 0.38,
+    "download": "C:/Users/Eridi/Downloads/Tactical_jump_boots__#2-1791570319085.wav"
+  },
+  {
+    "name": "Jump_03",
+    "prompt": "Tactical jump boots: exactly one realistic small jump takeoff, rubber-soled combat boots push and scuff off rough warehouse concrete, short restrained trousers and jacket cloth movement. Subtle weight and clean dry tactile detail, no landing, boing, cartoon spring, grunt, breath, voice, music, gunshot or long hall.",
+    "duration": 0.5,
+    "limit": 0.36,
+    "transient": true,
+    "peak": 0.38,
+    "download": "C:/Users/Eridi/Downloads/Tactical_jump_boots__#3-1791570319085.wav"
+  },
+  {
+    "name": "Landing_01",
+    "prompt": "Tactical concrete landing: exactly one controlled human landing from a small jump onto rough warehouse concrete in rubber-soled combat boots. Weighty compact two-foot low thud, short sole scrape and restrained trousers jacket cloth settle. Realistic dry close foley, no boom, cartoon sound, grunt, breath, voice, music, shots or long hall.",
+    "duration": 0.6,
+    "limit": 0.48,
+    "transient": true,
+    "peak": 0.48,
+    "download": "C:/Users/Eridi/Downloads/Tactical_concrete_la_#1-1791570364752.wav"
+  },
+  {
+    "name": "Landing_02",
+    "prompt": "Tactical concrete landing: exactly one controlled human landing from a small jump onto rough warehouse concrete in rubber-soled combat boots. Weighty compact two-foot low thud, short sole scrape and restrained trousers jacket cloth settle. Realistic dry close foley, no boom, cartoon sound, grunt, breath, voice, music, shots or long hall.",
+    "duration": 0.6,
+    "limit": 0.48,
+    "transient": true,
+    "peak": 0.48,
+    "download": "C:/Users/Eridi/Downloads/Tactical_concrete_la_#2-1791570364763.wav"
+  },
+  {
+    "name": "Landing_03",
+    "prompt": "Tactical concrete landing: exactly one controlled human landing from a small jump onto rough warehouse concrete in rubber-soled combat boots. Weighty compact two-foot low thud, short sole scrape and restrained trousers jacket cloth settle. Realistic dry close foley, no boom, cartoon sound, grunt, breath, voice, music, shots or long hall.",
+    "duration": 0.6,
+    "limit": 0.48,
+    "transient": true,
+    "peak": 0.48,
+    "download": "C:/Users/Eridi/Downloads/Tactical_concrete_la_#3-1791570364788.wav"
+  },
+  {
+    "name": "Minigun_FeedLatch",
+    "prompt": "Minigun feed latch: one dry close heavy rotary gun ammunition feed cover steel latch shut, short solid low metallic clunk with small cartridge belt rattle settling. Single compact mechanism event only, no motor, firing, magazine swap, speech, music, ambience or echo.",
+    "duration": 0.5,
+    "limit": 0.34,
+    "transient": true,
+    "peak": 0.62,
+    "download": "C:/Users/Eridi/Downloads/Minigun_feed_latch_o_#1-1791570564796.wav"
+  }
+]

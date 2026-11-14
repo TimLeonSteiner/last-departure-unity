@@ -1,0 +1,338 @@
+[
+  {
+    "file": "Audio/ElevenLabs_Weapons/Scout_Shot.wav",
+    "seconds": 0.6115208333333333,
+    "peak": 0.82,
+    "rms": 0.3209550766479748,
+    "source": "Scout_sniper_shot_ex_#1-1791559901219.wav",
+    "source_sha256": "f9ff66b077c2fe88f00a48b1fdcf990d002824c69d58517439f4524a5ce74547"
+  },
+  {
+    "file": "Audio/Weapon_Impact/Scout_Shot_01.wav",
+    "seconds": 0.6,
+    "peak": 0.82,
+    "rms": 0.25406540499628216
+  },
+  {
+    "file": "Audio/Weapon_Impact/Scout_Shot_02.wav",
+    "seconds": 0.6,
+    "peak": 0.82,
+    "rms": 0.2535770362213835
+  },
+  {
+    "file": "Audio/Weapon_Impact/Scout_Shot_03.wav",
+    "seconds": 0.6,
+    "peak": 0.82,
+    "rms": 0.2528873308664904
+  },
+  {
+    "file": "Audio/Weapon_Impact/Scout_Preview.wav",
+    "seconds": 6.3,
+    "peak": 0.48789999999999994,
+    "rms": 0.13170318573250803
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Scout_Reload.wav",
+    "seconds": 1.8031875,
+    "peak": 0.75,
+    "rms": 0.020414686080108584,
+    "source": "Scout_sniper_reload__#1-1791560097904.wav",
+    "source_sha256": "53fd21cf4c25d9211d02d2d52f590d6b2db99439d825013f3b59790c1e113aee"
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Scout_Bolt.wav",
+    "seconds": 0.3399375,
+    "peak": 0.75,
+    "rms": 0.06368396679126116,
+    "source": "Scout_sniper_bolt_on_#1-1791560208395.wav",
+    "source_sha256": "04682d556d2df80ff3b81c9b153969644574a1484a7c8899dd086a98e179444d"
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/M60_Shot.wav",
+    "seconds": 0.2519166666666667,
+    "peak": 0.82,
+    "rms": 0.11810206602009564,
+    "source": "M60_machine_gun_shot_#1-1791559998158.wav",
+    "source_sha256": "68cdc0048e0db6ba8b7d633670ce20e24957d8c441499f656dc377bc38d48e2f"
+  },
+  {
+    "file": "Audio/Weapon_Impact/M60_Shot_01.wav",
+    "seconds": 0.23,
+    "peak": 0.82,
+    "rms": 0.1172772274762626
+  },
+  {
+    "file": "Audio/Weapon_Impact/M60_Shot_02.wav",
+    "seconds": 0.23,
+    "peak": 0.8041935040087129,
+    "rms": 0.11696873376930754
+  },
+  {
+    "file": "Audio/Weapon_Impact/M60_Shot_03.wav",
+    "seconds": 0.23,
+    "peak": 0.7938063780715839,
+    "rms": 0.11610079719627277
+  },
+  {
+    "file": "Audio/Weapon_Impact/M60_Preview.wav",
+    "seconds": 1.065,
+    "peak": 0.48789999999999994,
+    "rms": 0.0909380641634973
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/M60_Reload.wav",
+    "seconds": 1.3411875,
+    "peak": 0.75,
+    "rms": 0.06241082141135137,
+    "source": "M60_belt_reload_clos_#1-1791560299474.wav",
+    "source_sha256": "40f1aa2fb12e6d33650da0e1cfd41165a2f6982d3a3b48e0ec2f4e79a27815d8"
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/M60_Charging_Handle.wav",
+    "seconds": 0.3323333333333333,
+    "peak": 0.75,
+    "rms": 0.08856922925082333,
+    "source": "M60_charging_handle__#1-1791560417883.wav",
+    "source_sha256": "f8e0791a6bf63fdf11c68b50684d084abf9f46b174ff587ac0e1303dfed886d0"
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/AK47_Shot.wav",
+    "seconds": 0.45,
+    "peak": 0.82,
+    "rms": 0.11609759802005368,
+    "source": "AK47_rifle_shot_exac_#1-1791560426752.wav",
+    "source_sha256": "b08c6f543702596fe2a96b5bea8d259c1c073debec4ef648fba9774e737abf72"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Shot_01.wav",
+    "seconds": 0.26,
+    "peak": 0.82,
+    "rms": 0.12680067781403306
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Shot_02.wav",
+    "seconds": 0.26,
+    "peak": 0.8188132550802185,
+    "rms": 0.12692255471907138
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Shot_03.wav",
+    "seconds": 0.26,
+    "peak": 0.8190266024815274,
+    "rms": 0.12619474242231413
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Preview.wav",
+    "seconds": 1.55,
+    "peak": 0.48789999999999994,
+    "rms": 0.08724689560110106
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/AK47_Reload.wav",
+    "seconds": 1.5185208333333333,
+    "peak": 0.75,
+    "rms": 0.030376660309222658,
+    "source": "AK47_magazine_reload_#1-1791560462719.wav",
+    "source_sha256": "d95ddd90d853f458e88b27dce7a52196aed3aebbf1bf57c58f886fb0fa7dacce"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Reload.wav",
+    "seconds": 1.5185208333333333,
+    "peak": 0.75,
+    "rms": 0.030376660309222658
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/AK47_Action.wav",
+    "seconds": 0.3431666666666667,
+    "peak": 0.75,
+    "rms": 0.05321025316913557,
+    "source": "AK47_bolt_action_one_#1-1791560537675.wav",
+    "source_sha256": "15d259155f064d34b4b4166fb9b26ec8ab030a642fddc0d826efa8acc9429818"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/AK47_Action.wav",
+    "seconds": 0.3431666666666667,
+    "peak": 0.75,
+    "rms": 0.05321025316913557
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Shotgun_Shot.wav",
+    "seconds": 0.16647916666666668,
+    "peak": 0.82,
+    "rms": 0.14784376750207245,
+    "source": "Shotgun_pump_shot_ex_#1-1791560570723.wav",
+    "source_sha256": "21e66d74ef934bfff1627df41d0f37640a1cd5540a2f25baf2ac32a41e92cacd"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Shot_01.wav",
+    "seconds": 0.62,
+    "peak": 0.82,
+    "rms": 0.07658426626092052
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Shot_02.wav",
+    "seconds": 0.62,
+    "peak": 0.806418763869896,
+    "rms": 0.07462263517407072
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Shot_03.wav",
+    "seconds": 0.62,
+    "peak": 0.8095843198521304,
+    "rms": 0.0738923130489052
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Preview.wav",
+    "seconds": 6.67,
+    "peak": 0.48789999999999994,
+    "rms": 0.03857633680944985
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Shotgun_Reload.wav",
+    "seconds": 2.984958333333333,
+    "peak": 0.75,
+    "rms": 0.01640906094554287,
+    "source": "Shotgun_shell_reload_#1-1791560612981.wav",
+    "source_sha256": "c74510d4f82e43501256fdcd84fe193696c9864b29e90f60e215169d3c81f3c9"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Reload.wav",
+    "seconds": 2.984958333333333,
+    "peak": 0.75,
+    "rms": 0.01640906094554287
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Shotgun_Action.wav",
+    "seconds": 0.298625,
+    "peak": 0.75,
+    "rms": 0.10233549933038612,
+    "source": "Shotgun_pump_action__#1-1791560690863.wav",
+    "source_sha256": "139b0e5d0fb5b132aca88ed962ea2813af33e8c6eacac7d66763396bf435aec5"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Shotgun_Action.wav",
+    "seconds": 0.298625,
+    "peak": 0.75,
+    "rms": 0.10233549933038612
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Suomi_KP_Shot.wav",
+    "seconds": 0.45,
+    "peak": 0.82,
+    "rms": 0.14622486416187672,
+    "source": "Suomi_SMG_shot_exact_#1-1791560690861.wav",
+    "source_sha256": "82995763c22541a9e1e8c84bd003ffd77562bf10ea700c48770b55f071a17958"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Shot_01.wav",
+    "seconds": 0.18,
+    "peak": 0.82,
+    "rms": 0.21633186321947365
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Shot_02.wav",
+    "seconds": 0.18,
+    "peak": 0.82,
+    "rms": 0.21577434259169082
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Shot_03.wav",
+    "seconds": 0.18,
+    "peak": 0.82,
+    "rms": 0.2144981118990873
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Preview.wav",
+    "seconds": 0.91,
+    "peak": 0.5087448313763604,
+    "rms": 0.16167913468763667
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Suomi_KP_Reload.wav",
+    "seconds": 0.9898125,
+    "peak": 0.75,
+    "rms": 0.046554943206228806,
+    "source": "Suomi_drum_reload_on_#1-1791560945457.wav",
+    "source_sha256": "af19a4cf19eaa6f17d0b854891ac7016b7d5079595474aa0f95d609e4d51ffb9"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Reload.wav",
+    "seconds": 0.9898125,
+    "peak": 0.75,
+    "rms": 0.046554943206228806
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Suomi_KP_Action.wav",
+    "seconds": 0.38166666666666665,
+    "peak": 0.75,
+    "rms": 0.04790940985347242,
+    "source": "Suomi_bolt_action_on_#1-1791560958791.wav",
+    "source_sha256": "ed998a1fb3ed5c8de4d11addcec94031b343f1162d2a67f09e02cab9b624ea37"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Suomi_KP_Action.wav",
+    "seconds": 0.38166666666666665,
+    "peak": 0.75,
+    "rms": 0.04790940985347242
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Grease_Gun_Shot.wav",
+    "seconds": 0.23002083333333334,
+    "peak": 0.82,
+    "rms": 0.2625126123942387,
+    "source": "Grease_gun_shot_exac_#1-1791561016954.wav",
+    "source_sha256": "d1d90b0cca676f8dcaebaa600913eb0cb2e74829fcf018588c9ff3b01ab65bb1"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Shot_01.wav",
+    "seconds": 0.23,
+    "peak": 0.82,
+    "rms": 0.24840877126456154
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Shot_02.wav",
+    "seconds": 0.23,
+    "peak": 0.82,
+    "rms": 0.24838264096476523
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Shot_03.wav",
+    "seconds": 0.23,
+    "peak": 0.82,
+    "rms": 0.24695487264214194
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Preview.wav",
+    "seconds": 1.625,
+    "peak": 0.4879338923391495,
+    "rms": 0.1570371202037968
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Grease_Gun_Reload.wav",
+    "seconds": 1.3102916666666666,
+    "peak": 0.75,
+    "rms": 0.04009906517252122,
+    "source": "Grease_gun_reload_on_#1-1791561033033.wav",
+    "source_sha256": "6399464bec7ce58fac2c7d319dbd63d56d6c69377d7285a9bcf1e74dda6207ad"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Reload.wav",
+    "seconds": 1.3102916666666666,
+    "peak": 0.75,
+    "rms": 0.04009906517252122
+  },
+  {
+    "file": "Audio/ElevenLabs_Weapons/Grease_Gun_Action.wav",
+    "seconds": 0.2379375,
+    "peak": 0.75,
+    "rms": 0.09643066143699322,
+    "source": "Grease_gun_bolt_one__#1-1791561033134.wav",
+    "source_sha256": "f6d2ba9d879c1dab52d53086410424055de99e818bec92d07f8568bfebbe931d"
+  },
+  {
+    "file": "Audio/AdditionalWeapons/Grease_Gun_Action.wav",
+    "seconds": 0.2379375,
+    "peak": 0.75,
+    "rms": 0.09643066143699322
+  }
+]

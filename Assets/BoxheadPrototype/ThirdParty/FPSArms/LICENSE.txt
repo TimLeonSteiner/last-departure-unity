@@ -1,0 +1,7 @@
+FPS arms (rigged only) by para, based on the MakeHuman mesh and texture.
+Source: https://opengameart.org/content/fps-arms-rigged-only
+Download: https://opengameart.org/sites/default/files/fps%20arms.7z
+License: CC0 1.0 Universal, as declared on the author's source page.
+License text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Downloaded 2026-10-09. Source FBX and original texture retained.
+Adaptations in this project: cropped shoulder geometry, glove/sleeve materials, finger poses and weapon-specific grip/reload motion.

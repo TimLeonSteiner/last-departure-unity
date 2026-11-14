@@ -1,0 +1,1 @@
+FLASHLIGHT RENDER PASS: actual yard brightness delta=0,0046; receiver illumination=0,2141; opaque shadow=0,3371; per-pixel lighting, shadowed hotspot/spill and synchronized toggle.

@@ -1,0 +1,1 @@
+PASS: textured animated chest assigned; original opening segment 0..49,09982s played in .65s; price 6 scrap. Starter pistol sight coordinates repaired.

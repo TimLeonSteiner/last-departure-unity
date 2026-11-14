@@ -1,0 +1,4 @@
+pitchfork-animated by DJMaesen (bumstrum)
+https://sketchfab.com/3d-models/54ea2a82f7d74e8fabbc7245bec7be14
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Adaptations: URP materials, FPS alignment and animation range playback.

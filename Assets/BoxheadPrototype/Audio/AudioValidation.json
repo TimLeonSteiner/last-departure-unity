@@ -1,0 +1,55 @@
+{
+  "sample_rate": 22050,
+  "bpm": 112,
+  "bars": 16,
+  "files": [
+    {
+      "file": "Dustline_Radio_Rag.wav",
+      "seconds": 34.285714285714285,
+      "peak": 0.86,
+      "rms": 0.16974902247673335
+    },
+    {
+      "file": "Carbine_Shot.wav",
+      "seconds": 0.22,
+      "peak": 0.78,
+      "rms": 0.07977410285890502
+    },
+    {
+      "file": "Ghoul_Hit.wav",
+      "seconds": 0.22,
+      "peak": 0.65,
+      "rms": 0.15018735361108854
+    },
+    {
+      "file": "Ghoul_Groan.wav",
+      "seconds": 0.9,
+      "peak": 0.66,
+      "rms": 0.20473621861173338
+    },
+    {
+      "file": "Scrap_Impact.wav",
+      "seconds": 0.34997732426303857,
+      "peak": 0.65,
+      "rms": 0.06162847425367221
+    },
+    {
+      "file": "Wave_Chime.wav",
+      "seconds": 0.9,
+      "peak": 0.65,
+      "rms": 0.08812362963333695
+    },
+    {
+      "file": "Game_Over.wav",
+      "seconds": 1.2,
+      "peak": 0.66,
+      "rms": 0.20155873405398067
+    },
+    {
+      "file": "Player_Hurt.wav",
+      "seconds": 0.32,
+      "peak": 0.64,
+      "rms": 0.10206388611715221
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+M4A1 Assault Rifle by nisu / 3DModelsCC0
+License: Creative Commons CC0 1.0 Universal (public domain dedication).
+Source: https://opengameart.org/content/m4a1-assault-rifle
+Download: https://opengameart.org/sites/default/files/m4a1_0.zip
+Downloaded 2026-10-09. The source page explicitly labels this model CC0.
+License text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The model and its supplied texture maps may be used, modified and redistributed
+for personal and commercial projects. No attribution is required by CC0.

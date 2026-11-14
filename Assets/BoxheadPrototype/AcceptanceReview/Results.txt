@@ -1,0 +1,133 @@
+Independent Play Mode acceptance 2026-10-09 22:16
+Automated integration checks; these do not certify subjective audio quality, ADS appearance or two-client Relay.
+PASS Home does not run a wave
+PASS Play starts first wave
+PASS Solo pause stops simulation and audio
+PASS Resume restores simulation and audio
+PASS LMG / BELT FED shot consumes one round
+PASS LMG / BELT FED cannot fire while reloading
+PASS LMG / BELT FED reload transfers finite reserve
+PASS LMG / BELT FED empty reserve does not refill
+PASS MINIGUN shot consumes one round
+PASS MINIGUN cannot fire while reloading
+PASS MINIGUN reload transfers finite reserve
+PASS MINIGUN empty reserve does not refill
+PASS P9 / PISTOL shot consumes one round
+PASS P9 / PISTOL cannot fire while reloading
+PASS P9 / PISTOL reload transfers finite reserve
+PASS P9 / PISTOL empty reserve does not refill
+PASS BOOMSTICK shot consumes one round
+PASS BOOMSTICK cannot fire while reloading
+PASS BOOMSTICK reload transfers finite reserve
+PASS BOOMSTICK empty reserve does not refill
+PASS GRENADE LAUNCHER shot consumes one round
+PASS GRENADE LAUNCHER cannot fire while reloading
+PASS GRENADE LAUNCHER reload transfers finite reserve
+PASS GRENADE LAUNCHER empty reserve does not refill
+PASS DUAL SAWNOFFS shot consumes one round
+PASS DUAL SAWNOFFS cannot fire while reloading
+PASS DUAL SAWNOFFS reload transfers finite reserve
+PASS DUAL SAWNOFFS empty reserve does not refill
+PASS CROSSBOW shot consumes one round
+PASS CROSSBOW cannot fire while reloading
+PASS CROSSBOW reload transfers finite reserve
+PASS CROSSBOW empty reserve does not refill
+PASS DUAL SMGS shot consumes one round
+PASS DUAL SMGS cannot fire while reloading
+PASS DUAL SMGS reload transfers finite reserve
+PASS DUAL SMGS empty reserve does not refill
+PASS HEAVY RIFLE shot consumes one round
+PASS HEAVY RIFLE cannot fire while reloading
+PASS HEAVY RIFLE reload transfers finite reserve
+PASS HEAVY RIFLE empty reserve does not refill
+PASS TALON shot consumes one round
+PASS TALON cannot fire while reloading
+PASS TALON reload transfers finite reserve
+PASS TALON empty reserve does not refill
+PASS BERETTA shot consumes one round
+PASS BERETTA cannot fire while reloading
+PASS BERETTA reload transfers finite reserve
+PASS BERETTA empty reserve does not refill
+PASS HEAVY PISTOL shot consumes one round
+PASS HEAVY PISTOL cannot fire while reloading
+PASS HEAVY PISTOL reload transfers finite reserve
+PASS HEAVY PISTOL empty reserve does not refill
+PASS PERSUADER shot consumes one round
+PASS PERSUADER cannot fire while reloading
+PASS PERSUADER reload transfers finite reserve
+PASS PERSUADER empty reserve does not refill
+PASS FAL / BATTLE RIFLE shot consumes one round
+PASS FAL / BATTLE RIFLE cannot fire while reloading
+PASS FAL / BATTLE RIFLE reload transfers finite reserve
+PASS FAL / BATTLE RIFLE empty reserve does not refill
+PASS BOLT / SNIPER shot consumes one round
+PASS BOLT / SNIPER cannot fire while reloading
+PASS BOLT / SNIPER reload transfers finite reserve
+PASS BOLT / SNIPER empty reserve does not refill
+PASS Health crate heals 35 on contact
+PASS Full health preserves crate
+PASS Ammo crate grants two magazines
+PASS Cleared wave enters intermission
+PASS Next wave starts once within 5.5 seconds without input
+PASS Defense placement 0
+PASS Built defense blocks movement sweep 0
+PASS Defense placement 1
+PASS Built defense blocks movement sweep 1
+PASS Turret has live mesh references
+PASS Turret materials have supported shader and color texture
+PASS Hammer blueprint placement 0
+PASS Defense begins with construction state 0
+PASS Blueprint is initially unfinished 0
+PASS Distant hammer hit rejected without cost 0
+PASS Repeated nearby hammer hits complete structure 0
+PASS Construction charges original total cost once 0
+PASS Full-health repair consumes nothing 0
+PASS Repair restores capped health for one scrap 0
+PASS Wave reward does not repair structure for free 0
+PASS Hammer blueprint placement 1
+PASS Defense begins with construction state 1
+PASS Blueprint is initially unfinished 1
+PASS Distant hammer hit rejected without cost 1
+PASS Repeated nearby hammer hits complete structure 1
+PASS Construction charges original total cost once 1
+PASS Full-health repair consumes nothing 1
+PASS Repair restores capped health for one scrap 1
+PASS Wave reward does not repair structure for free 1
+PASS Hammer blueprint placement 2
+PASS Defense begins with construction state 2
+PASS Blueprint is initially unfinished 2
+PASS Distant hammer hit rejected without cost 2
+PASS Repeated nearby hammer hits complete structure 2
+PASS Construction charges original total cost once 2
+PASS Full-health repair consumes nothing 2
+PASS Repair restores capped health for one scrap 2
+PASS Wave reward does not repair structure for free 2
+INFO variant 0 model=Pxltiger(Clone) animator=Rig human=True enabled=True avatar=Zombie1Avatar
+INFO ragdoll links=10 character root=Imported wasteland zombie
+PASS Variant 0 articulated dynamic ragdoll
+PASS Variant 0 connected body joints
+PASS Variant 0 remains finite and above floor for three seconds
+PASS Variant 0 severed limb has collision and remains above floor
+PASS Variant 0 actually collapses below standing height
+INFO variant 1 model=Modern(Clone) animator=Rig human=True enabled=True avatar=ZombieRigAvatar
+INFO ragdoll links=10 character root=Imported wasteland zombie
+PASS Variant 1 articulated dynamic ragdoll
+PASS Variant 1 connected body joints
+PASS Variant 1 remains finite and above floor for three seconds
+PASS Variant 1 severed limb has collision and remains above floor
+PASS Variant 1 actually collapses below standing height
+INFO variant 2 model=FatZombie(Clone) animator=Rig human=True enabled=True avatar=FatZombieAvatar
+INFO ragdoll links=10 character root=Imported wasteland zombie
+PASS Variant 2 articulated dynamic ragdoll
+PASS Variant 2 connected body joints
+PASS Variant 2 remains finite and above floor for three seconds
+PASS Variant 2 severed limb has collision and remains above floor
+PASS Variant 2 actually collapses below standing height
+INFO variant 3 model=AAB(Clone) animator=Rig human=True enabled=True avatar=ZombieMale_AABAvatar
+INFO ragdoll links=10 character root=Imported wasteland zombie
+PASS Variant 3 articulated dynamic ragdoll
+PASS Variant 3 connected body joints
+PASS Variant 3 remains finite and above floor for three seconds
+PASS Variant 3 severed limb has collision and remains above floor
+PASS Variant 3 actually collapses below standing height
+COMPLETE 22:16:31

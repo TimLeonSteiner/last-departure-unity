@@ -1,0 +1,7 @@
+FAIL: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at YardSurvivalPrototype.YardSurvival.ModelFor (System.Int32 id) [0x00000] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Scripts\YardSurvival.cs:184 
+  at YardSurvivalPrototype.YardSurvival.SpawnPickup (System.Int32 id, UnityEngine.Vector3 position, System.Int32 rounds) [0x000bf] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Scripts\YardSurvival.cs:199 
+  at YardSurvivalPrototype.YardSurvival.SpawnWaveWeapons (System.Int32 upcomingWave) [0x0027a] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Scripts\YardSurvival.cs:227 
+  at YardSurvivalPrototype.YardSurvival.ResetRun () [0x00398] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Scripts\YardSurvival.cs:180 
+  at YardSurvivalPrototype.YardSurvival.RunSmokeChecks () [0x00034] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Scripts\YardSurvival.cs:944 
+  at WarehouseVerification.Run () [0x00006] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\WarehouseVerification.cs:51 

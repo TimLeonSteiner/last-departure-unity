@@ -1,0 +1,1 @@
+PASS: 4 active zombie variants; all 2 previous entries preserved; FatZombie and AAB added with humanoid animations and six detachable regions.

@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Zombie_Idle",
+    "prompt": "Single undead zombie idle groan",
+    "duration": 1.5
+  },
+  {
+    "category": "Zombie_Hiss",
+    "prompt": "Single aggressive undead zombie hiss",
+    "duration": 1.6
+  },
+  {
+    "category": "Zombie_Attack",
+    "prompt": "Zombie attack snarl",
+    "duration": 1.6
+  },
+  {
+    "category": "Zombie_Pain",
+    "prompt": "Zombie pain grunt: one short wounded undead rasp and involuntary guttural yelp when hit, gravelly throat and wet gasp, single nonverbal dry game vocal, no impact or gunshot, no speech, no music, no ambience, no reverb.",
+    "duration": 1
+  },
+  {
+    "category": "Zombie_Death",
+    "prompt": "Zombie death vocal: one dying undead creature releases a strained guttural moan, wet choking gurgle and final rattling exhale fading to silence. Clear beginning and ending, isolated close dry horror game sound, no words, no music, no ambience, no reverb.",
+    "duration": 3
+  },
+  {
+    "category": "Flesh_Bullet_Impact",
+    "prompt": "Flesh bullet impact: single projectile punches into a fictional zombie torso, sharp wet smack, dense fleshy thud and brief blood splatter. Fast attack and short clean tail, isolated dry game gore foley, no gunshot, no voice, no music, no ambience, no reverb.",
+    "duration": 0.8
+  },
+  {
+    "category": "Arm_Sever",
+    "prompt": "Arm sever gore: a fictional zombie arm is shot off in one abrupt event, sharp bone crack, wet sinew tear and thick flesh rip with brief blood spray. Punchy close dry game foley with a short tail, no gunshot, no vocal, no music, no ambience, no reverb.",
+    "duration": 1
+  },
+  {
+    "category": "Leg_Sever",
+    "prompt": "Leg sever gore: one heavy fictional zombie leg is blasted off, deep meaty impact, thick tearing muscle, brittle bone snap and a short wet splat. Single layered event with instant attack, isolated dry game foley, no gunshot, no voice, no music, no ambience or reverb.",
+    "duration": 1.2
+  },
+  {
+    "category": "Head_Sever",
+    "prompt": "Head sever gore: one fictional zombie head shot off, sharp crunchy skull crack layered with a wet neck tear and brief dense blood splatter, fast satisfying arcade horror impact. Single dry isolated game sound, no gunshot, no voice, no music, no ambience, no reverb.",
+    "duration": 1
+  },
+  {
+    "category": "Body_Fall",
+    "prompt": "Body fall thud: one limp heavy zombie corpse collapses onto concrete, low solid body thump with a softer secondary limb slap and brief clothing scuff. Natural weight and quick decay, isolated dry close game foley, no voice, no gore, no music, no ambience or reverb.",
+    "duration": 1.5
+  },
+  {
+    "category": "Limb_Land",
+    "prompt": "Limb landing splat: one severed fictional zombie limb lands on hard concrete, small wet fleshy slap and soft bone clack with a brief sticky bounce. One short isolated dry game foley event, no gunshot, no voice, no music, no ambience or reverb.",
+    "duration": 0.8
+  },
+  {
+    "category": "Blood_Splatter",
+    "prompt": "Blood splatter foley: a single quick burst of thick liquid spraying and splashing onto a hard surface, sharp wet splat with tiny droplets and a very short tail. Isolated dry horror game effect, no voice, no gunshot, no music, no ambience or reverb.",
+    "duration": 0.7
+  },
+  {
+    "category": "Zombie_Shuffle",
+    "prompt": "Zombie shuffle footstep: one uneven dragging shoe step on rough concrete, gritty scrape followed by a dull weighted footfall and faint ragged clothing rustle. Single isolated dry game foley, no vocal, no music, no ambience or reverb.",
+    "duration": 0.8
+  },
+  {
+    "category": "Zombie_Crawl",
+    "prompt": "Zombie crawl scrape: one dragging pull of a legless undead body across rough concrete, gritty cloth friction, palm slap and low fleshy weight shifting. Short isolated dry game foley, no vocal, no music, no ambience or reverb.",
+    "duration": 1.2
+  },
+  {
+    "category": "Zombie_Bite",
+    "prompt": "Zombie bite impact: one vicious bite into flesh, abrupt jaw clack, wet meaty crunch and short sticky tear. Tight punchy isolated dry horror game foley, no voice, no scream, no music, no ambience or reverb.",
+    "duration": 0.9
+  },
+  {
+    "category": "Zombie_Gag",
+    "prompt": "Zombie gagging choke: one undead creature coughs with a wet retching throat gurgle and ragged breath, grotesque low rasp, nonverbal and close. Single short isolated dry game vocal, no words, no music, no ambience or reverb.",
+    "duration": 1.5
+  }
+]

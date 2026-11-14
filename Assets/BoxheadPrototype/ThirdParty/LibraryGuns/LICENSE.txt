@@ -1,0 +1,5 @@
+Free CC0 Guns & Explosives Pack
+Author: 3dmodelscc0 (nisu)
+Source: https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Downloaded 2026-10-09. Original sniper, AK-47, shotgun, Suomi KP and Grease Gun meshes and textures. All five configured as playable models, with normalized geometry, Unity materials, model-specific hand contacts and procedural reload motion.

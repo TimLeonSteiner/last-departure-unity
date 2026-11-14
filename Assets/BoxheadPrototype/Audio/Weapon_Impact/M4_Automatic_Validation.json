@@ -1,0 +1,46 @@
+[
+  {
+    "file": "M4_Service_Auto_01.wav",
+    "sourceStart": 0.186,
+    "seconds": 0.128,
+    "peak": 0.87
+  },
+  {
+    "file": "M4_Service_Auto_02.wav",
+    "sourceStart": 0.314,
+    "seconds": 0.068,
+    "peak": 0.87
+  },
+  {
+    "file": "M4_Service_Auto_03.wav",
+    "sourceStart": 0.513,
+    "seconds": 0.131,
+    "peak": 0.87
+  },
+  {
+    "file": "M4_Service_Auto_04.wav",
+    "sourceStart": 0.644,
+    "seconds": 0.139,
+    "peak": 0.87
+  },
+  {
+    "file": "M4_Service_Auto_05.wav",
+    "sourceStart": 0.783,
+    "seconds": 0.128,
+    "peak": 0.87
+  },
+  {
+    "file": "M4_Service_Auto_06.wav",
+    "sourceStart": 0.911,
+    "seconds": 0.14,
+    "peak": 0.87
+  },
+  {
+    "source": "M4_Automatic_Source.wav",
+    "provider": "ElevenLabs",
+    "generated": true,
+    "source_sha256": "5cf85e8731b455b561ffd7055018de3471e31546edb17f566619db1435f92796",
+    "burstShots": 30,
+    "playbackPeak": 0.5354782104492187
+  }
+]

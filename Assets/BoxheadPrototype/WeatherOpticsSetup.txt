@@ -1,0 +1,1 @@
+PASS 2026-10-09T22:56:50: neutral URP lit rain/shadows/depth, localized HDR entrance bloom, smooth torch cookie; scene saved. Runtime visual verification pending.

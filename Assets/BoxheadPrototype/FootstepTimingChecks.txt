@@ -1,0 +1,1 @@
+FOOTSTEPS PASS: four loaded non-silent short takes; 2 contacts/second at walk speed; no air, slide, stationary or paused steps; no adjacent repeated takes.

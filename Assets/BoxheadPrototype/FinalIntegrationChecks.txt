@@ -1,0 +1,61 @@
+Final combined integration — 2026-10-09
+
+Eight distinct playable imported weapons: P12, M4, Scout, M60, AK-47,
+pump shotgun, Suomi KP and M3 Grease Gun.
+
+Unity Play Mode, 18:03:57:
+- Full gameplay smoke checks passed with Pxltiger and Modern zombies.
+- Eight-weapon unique model, wave pickup, ammunition, reload lockout and
+  completion checks passed. Arm chains stayed connected through 21 reload
+  phases per weapon.
+- Eight assigned shot/reload/action banks passed expected asset names,
+  timing, PCM and turret checks.
+- Rain loop, independent effects/rain gain and mute, zero level/intensity,
+  and browser unlock gating passed.
+Reports: Audio/ElevenLabs_Weapons/WeaponAudioChecks.txt and
+Audio/RainAudioChecks.txt.
+
+ZombieReview/Validation.txt: both models passed walking, materials, head
+ray region, five detachments each, pose/scale preservation, no repeated
+sever, limb-loss counts and death fall.
+
+FlashlightChecks.txt, 18:04:53: actual yard illumination, shadowed hotspot
+and spill, opaque occlusion and synchronized toggle passed.
+
+Final hand review, 18:06:29: eight weapons captured in idle, firing,
+six reload phases, ADS and side views. Pistol model scale, backstrap
+contact, support grip, wrist bend and thumb direction corrected. Final
+pistol index curl was then checked in the built browser game. Rifle
+support arm is bent at the elbow and approaches the fore-end diagonally.
+
+WebGL build, 18:11:50: SUCCEEDED, zero errors.
+Output: C:/Users/Eridi/AppData/Local/Temp/YardSurvival-WebGL
+Launch: http://127.0.0.1:8765/
+Unity toolchain emitted browser-library compatibility/deprecation warnings.
+
+Browser checks, 18:12–18:17:
+- New build loaded with weapon attribution link.
+- P12 fired 12 -> 11 and R reloaded to 12.
+- Wave-one reward and M4 ground pickup succeeded; held fire used
+  30 -> 26 and reload restored 30.
+- New M3 Grease Gun ground pickup succeeded; held fire used 30 -> 27
+  and reload restored 30. Reload hand movement was captured live.
+- Music/effects/rain sliders changed independently to 32/65/39 percent
+  and persisted through a page reload. Prior 2/100/60 levels and mute
+  choices were restored.
+- Waves one through three cleared and rewarded scrap.
+- Scout pickup unlocked for the next wave; held right mouse displayed
+  the clear circular scope and crosshair.
+- Final browser error log was empty.
+
+Screenshots: HandReview/browser-final-pistol.png,
+browser-final-rifle.png, browser-final-rifle-reload.png,
+browser-final-greasegun.png, browser-final-greasegun-reload.png,
+browser-final-volume.png and browser-final-scope.png.
+
+Limits: weapon/hand movement is procedural rather than professionally
+authored animation clips. All eight weapons were tested in Unity;
+browser firing/reload spot checks covered P12, M4 and M3, with Scout ADS.
+The in-app browser does not grant native pointer lock; bounded input
+was usable for these checks. Use a normal browser for unrestricted mouse
+capture. The game remains a stylized prototype.

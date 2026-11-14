@@ -1,0 +1,4 @@
+Cultist Armed by DJMaesen (bumstrum)
+https://sketchfab.com/3d-models/63af0c04ad5d4d6180c15dd0c09d6a3a
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Adaptations: URP materials, runtime placement and humanoid retargeting or separated pickup meshes.

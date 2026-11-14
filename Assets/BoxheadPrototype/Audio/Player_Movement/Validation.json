@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Boot_Concrete_01.wav",
+    "seconds": 0.28060416666666665,
+    "peak": 0.302032470703125,
+    "rms": 0.06965099928884463,
+    "source": "Exactly_one_natural__#1-1791578002864.wav",
+    "sha256": "959e9588189f5b2c0d9e31851dd4fd4aeb0bc59423863d8a789a35c29605b19a"
+  },
+  {
+    "file": "Boot_Concrete_02.wav",
+    "seconds": 0.31597916666666664,
+    "peak": 0.33551025390625,
+    "rms": 0.06886559976550051,
+    "source": "Exactly_one_natural__#2-1791578003973.wav",
+    "sha256": "af13c71f0295ad896edb3afaf86053055ac70f1c9e74e9991ce6e52668799ea8"
+  },
+  {
+    "file": "Boot_Concrete_03.wav",
+    "seconds": 0.3245208333333333,
+    "peak": 0.43902587890625,
+    "rms": 0.06898718099721887,
+    "source": "Exactly_one_natural__#3-1791578002879.wav",
+    "sha256": "eb015e282f541c73e134e881b5396bfd201af03ca6cbcb78e7c9db90c969f2c9"
+  },
+  {
+    "file": "Boot_Concrete_04.wav",
+    "seconds": 0.340375,
+    "peak": 0.251129150390625,
+    "rms": 0.0696906650164276,
+    "source": "Exactly_one_natural__#4-1791578002889.wav",
+    "sha256": "2e4608985b75b26de147a1cfd0809e0485dc37cbf40f286ff949107ba57152e8"
+  },
+  {
+    "file": "Jump_Gear.wav",
+    "seconds": 0.22,
+    "peak": 0.65,
+    "rms": 0.1574105961393881
+  },
+  {
+    "file": "Land_Boots.wav",
+    "seconds": 0.3,
+    "peak": 0.65,
+    "rms": 0.08799257693639523
+  },
+  {
+    "file": "Slide_Concrete.wav",
+    "seconds": 0.7,
+    "peak": 0.65,
+    "rms": 0.11612350029903028
+  },
+  {
+    "file": "Slide_Stop.wav",
+    "seconds": 0.15,
+    "peak": 0.65,
+    "rms": 0.09390547086259868
+  }
+]

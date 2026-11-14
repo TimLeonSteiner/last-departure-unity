@@ -1,0 +1,10 @@
+Zombie source packages acquired in the project owner's Unity Asset Store account on 2026-10-09.
+
+Pxltiger: Zombie
+https://assetstore.unity.com/packages/3d/characters/humanoids/zombie-30232
+Modern Zombie Free: Artalasky
+https://assetstore.unity.com/packages/3d/characters/humanoids/modern-zombie-free-58134
+
+These are Unity Asset Store assets, not CC0. Retain the source publishers' rights and follow the licenses attached to the acquired packages. Do not redistribute the standalone source assets as a model library.
+
+Source FBX, textures, materials, animation clips and prefabs are retained in PxltigerZombie and ModernZombie. Demo scenes were omitted. PlayableZombies contains generated URP materials and six mesh regions per character. Runtime humanoid animation retargets the Pxltiger clips to each character's avatar. Source prefab material assignments are retained; the outdated Modern source prefab avatar binding is replaced by its FBX avatar.

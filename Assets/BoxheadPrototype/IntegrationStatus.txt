@@ -1,0 +1,9 @@
+Current saved implementation state
+17 new weapons only, old scene references cleared;17-weapon functional checks pass.
+4 zombies (previous2 + FatZombie + AAB). Both blank cached material copies repaired directly; ConvertMaterial now preserves URP BaseMap/BaseColor/UV and updates cached materials in place. Requires final regeneration/runtime visual review.
+ADS calibration code now derives separate rear/front crown anchors from authored idle-pose mesh per single firearm, optical rotation/eye relief; dual guns/minigun use honest centered aim; ADS idle and walk sway suppressed. Requires prefab rebuild and screenshot review.
+Arsenal audio Mapping.json is now complete.17-bank importer and separate impact/motor/explosion/jump/landing runtime events implemented; pending editor command arsenalaudio.
+Networking packages installed: NGO2.13.3 + MPS2.4.0. Existing project cloud GUID verified. Implementation next after visual/audio checks.
+Editor inbox refresh has been pending since20:25; Editor.log last updated20:25:11. Native helper twice returned Chrome pixels for selected Unity window (466404), so stopped native inputs. Requested user to bring Unity foreground/check open dialog; pending response. No root browser actions issued.
+Need commands in order after editor responds: refresh, extrazombies, arsenal, arsenalaudio, reviewarsenal (includes all4 zombie checks and menu captures), then final build after networking.
+Latest explicit scope: noKick; CultistArmed/Tpose ZIPs to import separately for visible player body while retaining authored FPSweapon arms; solo+two-player Relay online, host authority, itch at end only.

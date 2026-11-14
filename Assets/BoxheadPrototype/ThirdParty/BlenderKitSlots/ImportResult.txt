@@ -1,0 +1,1 @@
+PASS imported original BlenderKit mesh, base colour, normal and emissive maps; normalized to 2.1m.
