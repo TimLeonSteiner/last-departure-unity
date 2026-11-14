@@ -16,6 +16,7 @@ public static class HeartTubeConnections
         Directory.CreateDirectory(Folder);
         var rubber=Material("Pressure liner",new Color(.095f,.027f,.022f),.12f,.32f);
         var steel=Material("Socket steel",new Color(.27f,.23f,.18f),.7f,.32f);
+        var sleeve=Material("Heart fitting rubber",new Color(.050f,.045f,.042f),.05f,.35f);
         var hose=AssetDatabase.LoadAssetAtPath<HeartModuleAsset>("Assets/LastDeparturePrototype/Resources/HeartPlatform/Modular/Hose/Geometry.asset");
         var cropped=new Mesh[2];for(int level=0;level<2;level++)cropped[level]=SaveMesh("Hose body LOD"+level,CropFittings(hose.levels[level]));
         var frame=root.Find("Suspension frame");
@@ -29,6 +30,8 @@ public static class HeartTubeConnections
             if(route.name.Contains("chain"))continue;
             bool floor=route.name.StartsWith("Root distribution");
             bool pump=route.name.Contains("pump");
+            if(route.name.StartsWith("Vessel 07")||route.name.StartsWith("Vessel 08"))
+                route.a-=Tangent(route,0)*.14f;
             Vector3 socket=route.d;
             if(floor)
             {
@@ -59,8 +62,8 @@ public static class HeartTubeConnections
             string id="Tube-"+(++count).ToString("D2");
             var liner=Tube(route,.11f*route.radiusScale);
             Add(root,id+" sealed liner",liner,rubber);
-            // Both imported fitting cages now surround a solid, continuous hose core.
-            Add(root,id+" heart sleeve",Sleeve(route,0,.075f,radius),steel);
+            // Follow the hose curve and seat both ends beneath the existing metal fittings.
+            Add(root,id+" heart sleeve",floor?Sleeve(route,0,.075f,radius):HeartSocket(route,radius),floor?steel:sleeve);
             Add(root,id+" terminal sleeve",Sleeve(route,.925f,1,radius),steel);
             if(floor||!pump)
                 Add(root,id+" mounted socket",Gland(socket,floor?Vector3.up:Vector3.down,radius),steel);
@@ -114,7 +117,12 @@ public static class HeartTubeConnections
         {
             float index=Mathf.Clamp(vertices[i].z*bins-.5f,0,bins-1);int bin=Mathf.FloorToInt(index);
             var center=Vector2.Lerp(centers[bin],centers[Mathf.Min(bin+1,bins-1)],index-bin);
-            vertices[i].x-=center.x;vertices[i].y-=center.y;vertices[i].z=.04f+(vertices[i].z-.10f)/.80f*.92f;
+            var section=new Vector2(vertices[i].x,vertices[i].y)-center;
+            float t=.04f+(vertices[i].z-.10f)/.80f*.92f;
+            // Keep the imported metal fragments inside the sleeve, then blend back to the ribbed shell.
+            float fit=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.115f,.16f,t));
+            section=Vector2.Lerp(Vector2.ClampMagnitude(section,.193f),section,fit);
+            vertices[i]=new Vector3(section.x,section.y,t);
         }
         mesh.vertices=vertices;mesh.SetTriangles(kept,0);mesh.RecalculateNormals();mesh.RecalculateTangents();mesh.bounds=source.bounds;return mesh;
     }
@@ -124,6 +132,19 @@ public static class HeartTubeConnections
     {float u=1-t;return (3*u*u*(r.b-r.a)+6*u*t*(r.c-r.b)+3*t*t*(r.d-r.c)).normalized;}
     static Mesh Tube(HeartHoseRoute r,float radius)=>Sweep(r,0,1,128,t=>radius*(1+.025f*Mathf.Cos(t*Mathf.PI*96)));
     static Mesh Sleeve(HeartHoseRoute r,float from,float to,float radius)=>Sweep(r,from,to,24,t=>radius*(1-.20f*(from<.5f?t:1-t))*(t<.12f||t>.88f?1.06f:1));
+    static Mesh HeartSocket(HeartHoseRoute route,float radius)
+    {
+        bool rightPump=route.name.StartsWith("Vessel 07");
+        // Start at the embedded heart port and continue past the ribbed shell's .10 cut.
+        return Sweep(route,0,rightPump?.158f:.132f,40,t=>
+        {
+            float body=Mathf.SmoothStep(0,1,t/.22f)*(1-Mathf.SmoothStep(0,1,(t-.78f)/.22f));
+            // The right heart flange is wider near the port than the hose farther out.
+            float flange = rightPump ? .42f * Mathf.SmoothStep(0,1,t/.10f) *
+                (1-Mathf.SmoothStep(0,1,(t-.37f)/.23f)) : 0f;
+            return radius*(.90f+.14f*body+flange);
+        });
+    }
     static Mesh Sweep(HeartHoseRoute r,float from,float to,int rings,Func<float,float> radius)
     {
         var vertices=new List<Vector3>();var uv=new List<Vector2>();var triangles=new List<int>();const int sides=32;

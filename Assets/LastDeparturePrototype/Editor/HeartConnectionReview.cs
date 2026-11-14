@@ -5,8 +5,45 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using YardSurvivalPrototype;
 
+[InitializeOnLoad]
 public static class HeartConnectionReview
 {
+    static HeartConnectionReview() { EditorApplication.update += CaptureRequestedEndpoints; }
+
+    static void CaptureRequestedEndpoints()
+    {
+        const string request = "Assets/Verification~/InspectHeartEndpoints.request";
+        if (EditorApplication.isPlayingOrWillChangePlaymode || EditorApplication.isCompiling || !File.Exists(request)) return;
+        File.Delete(request);
+        var previous = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+        var inspection = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Additive);
+        try
+        {
+            UnityEngine.SceneManagement.SceneManager.SetActiveScene(inspection);
+            var model = Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/LastDeparturePrototype/Resources/HeartPlatform/Modular/Platform.prefab"));
+            foreach (var lod in model.GetComponentsInChildren<LODGroup>()) lod.ForceLOD(1);
+            var light = new GameObject("Endpoint inspection light").AddComponent<Light>();
+            light.type = LightType.Directional;
+            light.intensity = 2.5f;
+            light.transform.rotation = Quaternion.Euler(28, -65, 0);
+            foreach (var route in model.GetComponentsInChildren<HeartHoseRoute>())
+            {
+                if (!route.name.StartsWith("Vessel 07") && !route.name.StartsWith("Vessel 08")) continue;
+                route.SendMessage("OnEnable");
+                foreach (bool start in new[] { true, false })
+                {
+                    Vector3 point = start ? route.a : route.d;
+                    SpaceportAssetBuild.Capture(point + new Vector3(.35f, .34f, -1.20f), point,
+                        route.name + (start ? " heart end" : " far end"));
+                }
+            }
+        }
+        finally
+        {
+            UnityEngine.SceneManagement.SceneManager.SetActiveScene(previous);
+            EditorSceneManager.CloseScene(inspection, true);
+        }
+    }
     public static void Run()
     {
         ModularHeartImport.RepairConnections();
