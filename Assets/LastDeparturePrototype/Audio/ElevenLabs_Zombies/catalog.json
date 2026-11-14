@@ -1,0 +1,498 @@
+[
+  {
+    "category": "Zombie_Idle",
+    "variant": 1,
+    "file": "Zombie_Idle_01.wav",
+    "bytes": 270428,
+    "source": "One_frightening_orga_#1-1791575993357.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Idle",
+    "variant": 2,
+    "file": "Zombie_Idle_02.wav",
+    "bytes": 288044,
+    "source": "One_frightening_orga_#2-1791575993359.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Idle",
+    "variant": 3,
+    "file": "Zombie_Idle_03.wav",
+    "bytes": 257154,
+    "source": "One_frightening_orga_#3-1791575993359.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Idle",
+    "variant": 4,
+    "file": "Zombie_Idle_04.wav",
+    "bytes": 287934,
+    "source": "One_frightening_orga_#4-1791575993360.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Hiss",
+    "variant": 1,
+    "file": "Zombie_Hiss_01.wav",
+    "bytes": 239066,
+    "source": "One_short_organic_un_#1-1791576184674.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Hiss",
+    "variant": 2,
+    "file": "Zombie_Hiss_02.wav",
+    "bytes": 286784,
+    "source": "One_short_organic_un_#2-1791576184683.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Hiss",
+    "variant": 3,
+    "file": "Zombie_Hiss_03.wav",
+    "bytes": 250144,
+    "source": "One_short_organic_un_#3-1791576184729.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Hiss",
+    "variant": 4,
+    "file": "Zombie_Hiss_04.wav",
+    "bytes": 288020,
+    "source": "One_short_organic_un_#4-1791576184721.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Attack",
+    "variant": 1,
+    "file": "Zombie_Attack_01.wav",
+    "bytes": 280742,
+    "source": "One_short_frightenin_#1-1791576044678.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Attack",
+    "variant": 2,
+    "file": "Zombie_Attack_02.wav",
+    "bytes": 288044,
+    "source": "One_short_frightenin_#2-1791576044668.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Attack",
+    "variant": 3,
+    "file": "Zombie_Attack_03.wav",
+    "bytes": 272138,
+    "source": "One_short_frightenin_#3-1791576044700.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Attack",
+    "variant": 4,
+    "file": "Zombie_Attack_04.wav",
+    "bytes": 288044,
+    "source": "One_short_frightenin_#4-1791576044693.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Pain",
+    "variant": 1,
+    "file": "Zombie_Pain_01.wav",
+    "bytes": 288044,
+    "source": "One_short_organic_zo_#1-1791576098611.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Pain",
+    "variant": 2,
+    "file": "Zombie_Pain_02.wav",
+    "bytes": 245974,
+    "source": "One_short_organic_zo_#2-1791576098512.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Pain",
+    "variant": 3,
+    "file": "Zombie_Pain_03.wav",
+    "bytes": 284338,
+    "source": "One_short_organic_zo_#3-1791576098635.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Pain",
+    "variant": 4,
+    "file": "Zombie_Pain_04.wav",
+    "bytes": 288022,
+    "source": "One_short_organic_zo_#4-1791576098580.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Death",
+    "variant": 1,
+    "file": "Zombie_Death_01.wav",
+    "bytes": 275540,
+    "source": "One_organic_zombie_d_#1-1791576132742.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Death",
+    "variant": 2,
+    "file": "Zombie_Death_02.wav",
+    "bytes": 236896,
+    "source": "One_organic_zombie_d_#2-1791576132732.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Death",
+    "variant": 3,
+    "file": "Zombie_Death_03.wav",
+    "bytes": 190028,
+    "source": "One_organic_zombie_d_#3-1791576132763.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Death",
+    "variant": 4,
+    "file": "Zombie_Death_04.wav",
+    "bytes": 195388,
+    "source": "One_organic_zombie_d_#4-1791576132754.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Flesh_Bullet_Impact",
+    "variant": 1,
+    "file": "Flesh_Bullet_Impact_01.wav",
+    "bytes": 153678,
+    "source": "Flesh_bullet_impact__#1-1791556568147.wav"
+  },
+  {
+    "category": "Flesh_Bullet_Impact",
+    "variant": 2,
+    "file": "Flesh_Bullet_Impact_02.wav",
+    "bytes": 153678,
+    "source": "Flesh_bullet_impact__#2-1791556568112.wav"
+  },
+  {
+    "category": "Flesh_Bullet_Impact",
+    "variant": 3,
+    "file": "Flesh_Bullet_Impact_03.wav",
+    "bytes": 153678,
+    "source": "Flesh_bullet_impact__#3-1791556568150.wav"
+  },
+  {
+    "category": "Flesh_Bullet_Impact",
+    "variant": 4,
+    "file": "Flesh_Bullet_Impact_04.wav",
+    "bytes": 153678,
+    "source": "Flesh_bullet_impact__#4-1791556568362.wav"
+  },
+  {
+    "category": "Arm_Sever",
+    "variant": 1,
+    "file": "Arm_Sever_01.wav",
+    "bytes": 192078,
+    "source": "Arm_sever_gore_a_fic_#1-1791556604341.wav"
+  },
+  {
+    "category": "Arm_Sever",
+    "variant": 2,
+    "file": "Arm_Sever_02.wav",
+    "bytes": 192078,
+    "source": "Arm_sever_gore_a_fic_#2-1791556604425.wav"
+  },
+  {
+    "category": "Arm_Sever",
+    "variant": 3,
+    "file": "Arm_Sever_03.wav",
+    "bytes": 192078,
+    "source": "Arm_sever_gore_a_fic_#3-1791556604437.wav"
+  },
+  {
+    "category": "Arm_Sever",
+    "variant": 4,
+    "file": "Arm_Sever_04.wav",
+    "bytes": 192078,
+    "source": "Arm_sever_gore_a_fic_#4-1791556604430.wav"
+  },
+  {
+    "category": "Leg_Sever",
+    "variant": 1,
+    "file": "Leg_Sever_01.wav",
+    "bytes": 230478,
+    "source": "Leg_sever_gore_one_h_#1-1791556620800.wav"
+  },
+  {
+    "category": "Leg_Sever",
+    "variant": 2,
+    "file": "Leg_Sever_02.wav",
+    "bytes": 230478,
+    "source": "Leg_sever_gore_one_h_#2-1791556620794.wav"
+  },
+  {
+    "category": "Leg_Sever",
+    "variant": 3,
+    "file": "Leg_Sever_03.wav",
+    "bytes": 230478,
+    "source": "Leg_sever_gore_one_h_#3-1791556620730.wav"
+  },
+  {
+    "category": "Leg_Sever",
+    "variant": 4,
+    "file": "Leg_Sever_04.wav",
+    "bytes": 230478,
+    "source": "Leg_sever_gore_one_h_#4-1791556620803.wav"
+  },
+  {
+    "category": "Head_Sever",
+    "variant": 1,
+    "file": "Head_Sever_01.wav",
+    "bytes": 192078,
+    "source": "Head_sever_gore_one__#1-1791556632576.wav"
+  },
+  {
+    "category": "Head_Sever",
+    "variant": 2,
+    "file": "Head_Sever_02.wav",
+    "bytes": 192078,
+    "source": "Head_sever_gore_one__#2-1791556632578.wav"
+  },
+  {
+    "category": "Head_Sever",
+    "variant": 3,
+    "file": "Head_Sever_03.wav",
+    "bytes": 192078,
+    "source": "Head_sever_gore_one__#3-1791556632579.wav"
+  },
+  {
+    "category": "Head_Sever",
+    "variant": 4,
+    "file": "Head_Sever_04.wav",
+    "bytes": 192078,
+    "source": "Head_sever_gore_one__#4-1791556632580.wav"
+  },
+  {
+    "category": "Body_Fall",
+    "variant": 1,
+    "file": "Body_Fall_01.wav",
+    "bytes": 284238,
+    "source": "Body_fall_thud_one_l_#1-1791556646822.wav"
+  },
+  {
+    "category": "Body_Fall",
+    "variant": 2,
+    "file": "Body_Fall_02.wav",
+    "bytes": 284238,
+    "source": "Body_fall_thud_one_l_#2-1791556647188.wav"
+  },
+  {
+    "category": "Body_Fall",
+    "variant": 3,
+    "file": "Body_Fall_03.wav",
+    "bytes": 284238,
+    "source": "Body_fall_thud_one_l_#3-1791556646891.wav"
+  },
+  {
+    "category": "Body_Fall",
+    "variant": 4,
+    "file": "Body_Fall_04.wav",
+    "bytes": 284238,
+    "source": "Body_fall_thud_one_l_#4-1791556647127.wav"
+  },
+  {
+    "category": "Limb_Land",
+    "variant": 1,
+    "file": "Limb_Land_01.wav",
+    "bytes": 153678,
+    "source": "Limb_landing_splat_o_#1-1791556661263.wav"
+  },
+  {
+    "category": "Limb_Land",
+    "variant": 2,
+    "file": "Limb_Land_02.wav",
+    "bytes": 153678,
+    "source": "Limb_landing_splat_o_#2-1791556661340.wav"
+  },
+  {
+    "category": "Limb_Land",
+    "variant": 3,
+    "file": "Limb_Land_03.wav",
+    "bytes": 153678,
+    "source": "Limb_landing_splat_o_#3-1791556661348.wav"
+  },
+  {
+    "category": "Limb_Land",
+    "variant": 4,
+    "file": "Limb_Land_04.wav",
+    "bytes": 153678,
+    "source": "Limb_landing_splat_o_#4-1791556661344.wav"
+  },
+  {
+    "category": "Blood_Splatter",
+    "variant": 1,
+    "file": "Blood_Splatter_01.wav",
+    "bytes": 130638,
+    "source": "Blood_splatter_foley_#1-1791556679066.wav"
+  },
+  {
+    "category": "Blood_Splatter",
+    "variant": 2,
+    "file": "Blood_Splatter_02.wav",
+    "bytes": 130638,
+    "source": "Blood_splatter_foley_#2-1791556679002.wav"
+  },
+  {
+    "category": "Blood_Splatter",
+    "variant": 3,
+    "file": "Blood_Splatter_03.wav",
+    "bytes": 130638,
+    "source": "Blood_splatter_foley_#3-1791556679069.wav"
+  },
+  {
+    "category": "Blood_Splatter",
+    "variant": 4,
+    "file": "Blood_Splatter_04.wav",
+    "bytes": 130638,
+    "source": "Blood_splatter_foley_#4-1791556679072.wav"
+  },
+  {
+    "category": "Zombie_Shuffle",
+    "variant": 1,
+    "file": "Zombie_Shuffle_01.wav",
+    "bytes": 153678,
+    "source": "Zombie_shuffle_foots_#1-1791556695711.wav"
+  },
+  {
+    "category": "Zombie_Shuffle",
+    "variant": 2,
+    "file": "Zombie_Shuffle_02.wav",
+    "bytes": 153678,
+    "source": "Zombie_shuffle_foots_#2-1791556695648.wav"
+  },
+  {
+    "category": "Zombie_Shuffle",
+    "variant": 3,
+    "file": "Zombie_Shuffle_03.wav",
+    "bytes": 153678,
+    "source": "Zombie_shuffle_foots_#3-1791556695715.wav"
+  },
+  {
+    "category": "Zombie_Shuffle",
+    "variant": 4,
+    "file": "Zombie_Shuffle_04.wav",
+    "bytes": 153678,
+    "source": "Zombie_shuffle_foots_#4-1791556695723.wav"
+  },
+  {
+    "category": "Zombie_Crawl",
+    "variant": 1,
+    "file": "Zombie_Crawl_01.wav",
+    "bytes": 230478,
+    "source": "Zombie_crawl_scrape__#1-1791556712853.wav"
+  },
+  {
+    "category": "Zombie_Crawl",
+    "variant": 2,
+    "file": "Zombie_Crawl_02.wav",
+    "bytes": 230478,
+    "source": "Zombie_crawl_scrape__#2-1791556713209.wav"
+  },
+  {
+    "category": "Zombie_Crawl",
+    "variant": 3,
+    "file": "Zombie_Crawl_03.wav",
+    "bytes": 230478,
+    "source": "Zombie_crawl_scrape__#3-1791556712921.wav"
+  },
+  {
+    "category": "Zombie_Crawl",
+    "variant": 4,
+    "file": "Zombie_Crawl_04.wav",
+    "bytes": 230478,
+    "source": "Zombie_crawl_scrape__#4-1791556712923.wav"
+  },
+  {
+    "category": "Zombie_Bite",
+    "variant": 1,
+    "file": "Zombie_Bite_01.wav",
+    "bytes": 169038,
+    "source": "Zombie_bite_impact_o_#1-1791556725977.wav"
+  },
+  {
+    "category": "Zombie_Bite",
+    "variant": 2,
+    "file": "Zombie_Bite_02.wav",
+    "bytes": 169038,
+    "source": "Zombie_bite_impact_o_#2-1791556725927.wav"
+  },
+  {
+    "category": "Zombie_Bite",
+    "variant": 3,
+    "file": "Zombie_Bite_03.wav",
+    "bytes": 169038,
+    "source": "Zombie_bite_impact_o_#3-1791556726195.wav"
+  },
+  {
+    "category": "Zombie_Bite",
+    "variant": 4,
+    "file": "Zombie_Bite_04.wav",
+    "bytes": 169038,
+    "source": "Zombie_bite_impact_o_#4-1791556725980.wav"
+  },
+  {
+    "category": "Zombie_Gag",
+    "variant": 1,
+    "file": "Zombie_Gag_01.wav",
+    "bytes": 203424,
+    "source": "One_organic_zombie_g_#1-1791576278780.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Gag",
+    "variant": 2,
+    "file": "Zombie_Gag_02.wav",
+    "bytes": 287178,
+    "source": "One_organic_zombie_g_#2-1791576278698.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Gag",
+    "variant": 3,
+    "file": "Zombie_Gag_03.wav",
+    "bytes": 277480,
+    "source": "One_organic_zombie_g_#3-1791576278676.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  },
+  {
+    "category": "Zombie_Gag",
+    "variant": 4,
+    "file": "Zombie_Gag_04.wav",
+    "bytes": 288044,
+    "source": "One_organic_zombie_g_#4-1791576278841.wav",
+    "processing": "mono downmix, DC removal, silence trim, gain with headroom, 5ms edge fade; no pitch shifting or synthetic layers",
+    "revision": "organic-vocals-2026-10-09"
+  }
+]

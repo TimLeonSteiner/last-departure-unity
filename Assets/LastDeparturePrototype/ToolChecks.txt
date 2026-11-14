@@ -1,0 +1,50 @@
+PASS Tool defaults: barrel 4, hammer 5
+PASS Barrel selection does not open build menu
+PASS Hammer selection from barrel stays equipped without menu
+PASS Defense hotkey keeps menu closed
+PASS Scene has an explosive barrel template
+PASS Place explosive barrel at clear location
+PASS Placement charges exactly two scrap
+PASS Placed barrel has stable network identity and blocks movement
+PASS Overlap rejected without spending scrap
+PASS Out-of-range barrel rejected
+PASS Snapshot reconstructs barrel once with same identity
+PASS Explosion state reaches reconstructed barrel
+PASS Restart removes player-placed barrels
+PASS Partner equips LMG / BELT FED on Player
+PASS Partner equips MINIGUN on Player
+PASS Partner equips P9 / PISTOL on Player
+PASS Partner equips BOOMSTICK on Player
+PASS Partner equips GRENADE LAUNCHER on Player
+PASS Partner equips PITCHFORK on Player
+PASS Partner equips DUAL SAWNOFFS on Player
+PASS Partner equips CROSSBOW on Player
+PASS Partner equips DUAL SMGS on Player
+PASS Partner equips HEAVY RIFLE on Player
+PASS Partner equips KNIFE on Player
+PASS Partner equips TALON on Player
+PASS Partner equips BERETTA on Player
+PASS Partner equips HEAVY PISTOL on Player
+PASS Partner equips PERSUADER on Player
+PASS Partner equips FAL / BATTLE RIFLE on Player
+PASS Partner equips BOLT / SNIPER on Player
+PASS Authored SMG hidden on Player
+PASS Partner equips LMG / BELT FED on Player
+PASS Partner equips MINIGUN on Player
+PASS Partner equips P9 / PISTOL on Player
+PASS Partner equips BOOMSTICK on Player
+PASS Partner equips GRENADE LAUNCHER on Player
+PASS Partner equips PITCHFORK on Player
+PASS Partner equips DUAL SAWNOFFS on Player
+PASS Partner equips CROSSBOW on Player
+PASS Partner equips DUAL SMGS on Player
+PASS Partner equips HEAVY RIFLE on Player
+PASS Partner equips KNIFE on Player
+PASS Partner equips TALON on Player
+PASS Partner equips BERETTA on Player
+PASS Partner equips HEAVY PISTOL on Player
+PASS Partner equips PERSUADER on Player
+PASS Partner equips FAL / BATTLE RIFLE on Player
+PASS Partner equips BOLT / SNIPER on Player
+PASS Authored SMG hidden on Player
+49 checks passed.

@@ -1,0 +1,148 @@
+[
+  {
+    "file": "P12_Shot_01.wav",
+    "seconds": 0.34,
+    "peak": 0.9000000000000001,
+    "rms": 0.1516943584993256,
+    "source_sha256": "7f1654b76dd2983128c96b420fdc33c8b1cf8a8a16ee883d3ca0f0c864b69d53",
+    "processing": "M1911-style dry .45 report; deeper recorded body, preserved crack, subtle slide detail; no synthetic noise layers"
+  },
+  {
+    "file": "P12_Shot_02.wav",
+    "seconds": 0.34,
+    "peak": 0.9000000000000001,
+    "rms": 0.1532314492526513,
+    "source_sha256": "7f1654b76dd2983128c96b420fdc33c8b1cf8a8a16ee883d3ca0f0c864b69d53",
+    "processing": "M1911-style dry .45 report; deeper recorded body, preserved crack, subtle slide detail; no synthetic noise layers"
+  },
+  {
+    "file": "P12_Shot_03.wav",
+    "seconds": 0.34,
+    "peak": 0.9,
+    "rms": 0.15068628431305026,
+    "source_sha256": "7f1654b76dd2983128c96b420fdc33c8b1cf8a8a16ee883d3ca0f0c864b69d53",
+    "processing": "M1911-style dry .45 report; deeper recorded body, preserved crack, subtle slide detail; no synthetic noise layers"
+  },
+  {
+    "file": "P12_Preview.wav",
+    "seconds": 2.56,
+    "peak": 0.5359996028444611,
+    "rms": 0.09325100701591243,
+    "playback_peak": 0.5359996028444611
+  },
+  {
+    "file": "M4_Service_Shot_01.wav",
+    "seconds": 0.25,
+    "peak": 0.8,
+    "rms": 0.09545995578516969,
+    "source_sha256": "f9c0bc5c3e888fe663cfcfae175e4fb678810045c7e26d7cec4d2693f66daf4a",
+    "processing": "natural rifle transient; short tail; no synthetic layers or saturation"
+  },
+  {
+    "file": "M4_Service_Shot_02.wav",
+    "seconds": 0.25,
+    "peak": 0.8,
+    "rms": 0.09528521327053467,
+    "source_sha256": "f9c0bc5c3e888fe663cfcfae175e4fb678810045c7e26d7cec4d2693f66daf4a",
+    "processing": "natural rifle transient; short tail; no synthetic layers or saturation"
+  },
+  {
+    "file": "M4_Service_Shot_03.wav",
+    "seconds": 0.25,
+    "peak": 0.8,
+    "rms": 0.09642889965305237,
+    "source_sha256": "f9c0bc5c3e888fe663cfcfae175e4fb678810045c7e26d7cec4d2693f66daf4a",
+    "processing": "natural rifle transient; short tail; no synthetic layers or saturation"
+  },
+  {
+    "file": "M4_Service_Preview.wav",
+    "seconds": 1.35,
+    "peak": 0.4795847316441765,
+    "rms": 0.06924360939201087,
+    "playback_peak": 0.4795847316441765
+  },
+  {
+    "file": "M4_Marksman_Shot_01.wav",
+    "seconds": 0.42,
+    "peak": 0.88,
+    "rms": 0.1949464157739109,
+    "source_sha256": "57f5fb74ce10035c5845ae853d173caebcb880418f46a89522c1ce6d7d3371bc"
+  },
+  {
+    "file": "M4_Marksman_Shot_02.wav",
+    "seconds": 0.42,
+    "peak": 0.8799999999999999,
+    "rms": 0.19074101874779736,
+    "source_sha256": "57f5fb74ce10035c5845ae853d173caebcb880418f46a89522c1ce6d7d3371bc"
+  },
+  {
+    "file": "M4_Marksman_Shot_03.wav",
+    "seconds": 0.42,
+    "peak": 0.88,
+    "rms": 0.1819686827820697,
+    "source_sha256": "57f5fb74ce10035c5845ae853d173caebcb880418f46a89522c1ce6d7d3371bc"
+  },
+  {
+    "file": "M4_Marksman_Preview.wav",
+    "seconds": 2.01,
+    "peak": 0.5290663144929787,
+    "rms": 0.14629028492842533,
+    "playback_peak": 0.5290663144929787
+  },
+  {
+    "file": "M4_Heavy_Shot_01.wav",
+    "seconds": 0.25,
+    "peak": 0.88,
+    "rms": 0.21778513118260498,
+    "source_sha256": "1fe4db0415974fbb4eb6a4030d63afedd4e38f229653b5748a625f935f8f1d1e"
+  },
+  {
+    "file": "M4_Heavy_Shot_02.wav",
+    "seconds": 0.25,
+    "peak": 0.88,
+    "rms": 0.22154894856678073,
+    "source_sha256": "1fe4db0415974fbb4eb6a4030d63afedd4e38f229653b5748a625f935f8f1d1e"
+  },
+  {
+    "file": "M4_Heavy_Shot_03.wav",
+    "seconds": 0.25,
+    "peak": 0.88,
+    "rms": 0.22132069743080177,
+    "source_sha256": "1fe4db0415974fbb4eb6a4030d63afedd4e38f229653b5748a625f935f8f1d1e"
+  },
+  {
+    "file": "M4_Heavy_Preview.wav",
+    "seconds": 1.105,
+    "peak": 0.7036588568490736,
+    "rms": 0.17364633388862116,
+    "playback_peak": 0.7036588568490736
+  },
+  {
+    "file": "Turret_Shot_01.wav",
+    "seconds": 0.28,
+    "peak": 0.8800000000000001,
+    "rms": 0.18041102755811733,
+    "source_sha256": "d978873a917325c024b6b583ca3278ff70db99e5c947e9e7ce67f1e0f47318dc"
+  },
+  {
+    "file": "Turret_Shot_02.wav",
+    "seconds": 0.28,
+    "peak": 0.8800000000000001,
+    "rms": 0.19048219298642538,
+    "source_sha256": "d978873a917325c024b6b583ca3278ff70db99e5c947e9e7ce67f1e0f47318dc"
+  },
+  {
+    "file": "Turret_Shot_03.wav",
+    "seconds": 0.28,
+    "peak": 0.88,
+    "rms": 0.18583360061196552,
+    "source_sha256": "d978873a917325c024b6b583ca3278ff70db99e5c947e9e7ce67f1e0f47318dc"
+  },
+  {
+    "file": "Turret_Preview.wav",
+    "seconds": 4.6,
+    "peak": 0.25872,
+    "rms": 0.038076580230776653,
+    "playback_peak": 0.25872
+  }
+]

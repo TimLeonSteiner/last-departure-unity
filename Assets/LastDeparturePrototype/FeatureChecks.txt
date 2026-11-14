@@ -1,0 +1,33 @@
+PASS Chest rejects insufficient scrap without charging
+PASS Original animated chest installed
+PASS Chest purchase charges exactly six scrap
+PASS Chest prize is a different firearm
+PASS Second purchase blocked while opening
+PASS Chest lid opens in .65 seconds
+PASS Prize revealed with glowing model
+PASS Prize visibly rotates
+PASS Claim equips selected prize
+PASS Claim grants one magazine and three reserve magazines
+PASS Chest claim creates no ground weapon pickup
+PASS Prize claim cannot repeat
+PASS Chest closes and becomes available
+PASS Second valid purchase charges remaining six scrap
+PASS Unclaimed prize expires and chest resets
+PASS Penetration fixture has clear existing warehouse lane 13
+PASS Shot damages all three actual imported zombies in line 13
+PASS Real barricade placed for penetration blocking 13
+PASS Penetrating shot stops at actual constructed barricade 13
+PASS Penetration fixture has clear existing warehouse lane 16
+PASS Shot damages all three actual imported zombies in line 16
+PASS Real barricade placed for penetration blocking 16
+PASS Penetrating shot stops at actual constructed barricade 16
+COMPLETE new-feature integration 2026-10-09T22:51:43
+
+PASS Peer begins with starter only
+PASS Peer chest adds firearm and full finite ammunition
+PASS Peer switch restores starter ammo and preserves shot cooldown, cancels reload
+PASS Peer switch restores second weapon ammunition and cooldown
+PASS Host rejects unowned peer weapon switch
+PASS Repeated chest reward cannot duplicate peer slot
+PASS Stale peer ground-pickup command is inert
+COMPLETE peer inventory helpers 2026-10-09T22:51:43. Actual two-browser synchronization test remains required.

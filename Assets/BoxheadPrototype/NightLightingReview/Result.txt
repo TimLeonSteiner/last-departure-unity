@@ -1,3 +1,0 @@
-2026-10-09T22:20:46
-PASS: saved Boxhead night; 0 ceiling wash lights, 4 shadowed entrance LED pools. Ambient=0,001, moon=0.
-Player-height 75-degree views rendered with flashlight off/on; inspect PNGs.

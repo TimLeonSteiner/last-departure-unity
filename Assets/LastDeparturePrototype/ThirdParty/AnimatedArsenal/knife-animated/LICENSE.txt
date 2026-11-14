@@ -1,0 +1,4 @@
+knife-animated by DJMaesen (bumstrum)
+https://sketchfab.com/3d-models/f3140db917cc43389c14b5b2536c1dc8
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Adaptations: URP materials, FPS alignment and animation range playback.

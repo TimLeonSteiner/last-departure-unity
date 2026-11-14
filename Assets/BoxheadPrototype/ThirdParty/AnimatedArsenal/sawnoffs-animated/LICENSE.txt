@@ -1,4 +1,0 @@
-sawnoffs-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/001bec4277414a62bb8ad9b2a1a7abcb
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

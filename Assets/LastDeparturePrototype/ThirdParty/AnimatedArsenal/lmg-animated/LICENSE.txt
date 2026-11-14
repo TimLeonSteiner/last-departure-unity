@@ -1,0 +1,4 @@
+lmg-animated by DJMaesen (bumstrum)
+https://sketchfab.com/3d-models/50d67a9e586148a49c086fe3127e7abb
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Adaptations: URP materials, FPS alignment and animation range playback.

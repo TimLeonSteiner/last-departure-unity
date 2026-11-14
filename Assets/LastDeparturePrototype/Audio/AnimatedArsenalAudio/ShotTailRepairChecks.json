@@ -1,0 +1,122 @@
+{
+  "status": "PASS decoded PCM and overlapping-shot headroom; in-game listening pending",
+  "clips": [
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\P9_Shot_01.wav",
+      "old_seconds": 0.32325,
+      "seconds": 0.6541666666666667,
+      "source_seconds": 0.647625,
+      "sha256": "9163ae744344eab91bd1c308eca48d2073932d8350c3424d63c6162d3e3d6cc6",
+      "peak": 0.681365966796875,
+      "rms": 0.10254470620736929,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\P9_Shot_02.wav",
+      "old_seconds": 0.32,
+      "seconds": 0.647625,
+      "source_seconds": 0.647625,
+      "sha256": "9db96910c0b3be16b64484dcd070e6b1859c0d684155e2f3e7314a7b87c74b85",
+      "peak": 0.6798095703125,
+      "rms": 0.10250896221239487,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\P9_Shot_03.wav",
+      "old_seconds": 0.31683333333333336,
+      "seconds": 0.6412291666666666,
+      "source_seconds": 0.647625,
+      "sha256": "3cc5ccef514a62aa8bc8d85bd767dcab218d12cfec1d6d3cbfb51a7224dc5018",
+      "peak": 0.67559814453125,
+      "rms": 0.10254111899853828,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Beretta_Shot_01.wav",
+      "old_seconds": 0.39395833333333335,
+      "seconds": 1.7204791666666666,
+      "source_seconds": 1.7032708333333333,
+      "sha256": "023b84c7e60ef2acfeb267b6a3244e84e52306fe906d5438406a4668a1c90f2a",
+      "peak": 0.46844482421875,
+      "rms": 0.06803665878441488,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Beretta_Shot_02.wav",
+      "old_seconds": 0.39,
+      "seconds": 1.7032708333333333,
+      "source_seconds": 1.7032708333333333,
+      "sha256": "4c84d194eec61775e42dbc8ccaa1de10ae0c861c7d352b586db302ca98263840",
+      "peak": 0.454986572265625,
+      "rms": 0.0680153574042186,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Beretta_Shot_03.wav",
+      "old_seconds": 0.38614583333333335,
+      "seconds": 1.6864166666666667,
+      "source_seconds": 1.7032708333333333,
+      "sha256": "9794b7a6d4451bc8c749eee25374ca31876c6f88f946f87994c99c8a8d737566",
+      "peak": 0.47271728515625,
+      "rms": 0.06803096064664212,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Sniper_Shot_01.wav",
+      "old_seconds": 0.7272916666666667,
+      "seconds": 3.0316666666666667,
+      "source_seconds": 3.001333333333333,
+      "sha256": "d9bd955d5062dc485c07e60ac448e1da6f162a6e68fb362b369690359ddd071a",
+      "peak": 0.595123291015625,
+      "rms": 0.09026377413070848,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Sniper_Shot_02.wav",
+      "old_seconds": 0.72,
+      "seconds": 3.001333333333333,
+      "source_seconds": 3.001333333333333,
+      "sha256": "2dd5388e1c181ba96950758e43f0646d6ba30aa994cd2f0b22b8831b8c9bd8de",
+      "peak": 0.593475341796875,
+      "rms": 0.0902414364836005,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    },
+    {
+      "target": "LastDeparturePrototype\\Audio\\AnimatedArsenalAudio\\Sniper_Shot_03.wav",
+      "old_seconds": 0.712875,
+      "seconds": 2.971625,
+      "source_seconds": 3.001333333333333,
+      "sha256": "1b8f5237dfdb0a955f50248d6005f7f913e988db1ba9a3beb17d5f5b532d4464",
+      "peak": 0.592041015625,
+      "rms": 0.09026489592443443,
+      "processing": "Complete single-discharge source decay preserved; original attack gain retained; mono/DC removal; 2ms attack fade, 50ms fade at natural recording end; overlapping-shot headroom",
+      "tail_repaired": true,
+      "installed": true,
+      "guid_preserved": true
+    }
+  ]
+}

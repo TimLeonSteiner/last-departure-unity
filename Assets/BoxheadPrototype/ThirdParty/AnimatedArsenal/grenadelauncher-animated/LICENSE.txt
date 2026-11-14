@@ -1,4 +1,0 @@
-grenadelauncher-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/0528eaa3db5f45558ba093dca36beefe
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

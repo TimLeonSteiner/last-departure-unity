@@ -1,0 +1,18 @@
+PASS 0 rear/front eye-axis error=0 eyeRelief=0,22
+CENTERED 1 dual/melee/rotary treatment
+PASS 2 rear/front eye-axis error=0 eyeRelief=0,22
+PASS 3 rear/front eye-axis error=1,195658E-07 eyeRelief=0,22
+PASS 4 rear/front eye-axis error=1,494215E-08 eyeRelief=0,22
+CENTERED 5 dual/melee/rotary treatment
+CENTERED 6 dual/melee/rotary treatment
+PASS 7 rear/front eye-axis error=8,195639E-08 eyeRelief=0,22
+CENTERED 8 dual/melee/rotary treatment
+PASS 9 rear/front eye-axis error=2,00613E-08 eyeRelief=0,22
+CENTERED 10 dual/melee/rotary treatment
+PASS 11 rear/front eye-axis error=1,490116E-08 eyeRelief=0,22
+PASS 12 rear/front eye-axis error=1,818989E-12 eyeRelief=0,22
+PASS 13 rear/front eye-axis error=4,96922E-08 eyeRelief=0,22
+PASS 14 rear/front eye-axis error=2,677552E-08 eyeRelief=0,22
+PASS 15 rear/front eye-axis error=4,470348E-08 eyeRelief=0,22
+PASS 16 rear/front eye-axis error=0 eyeRelief=0,12
+All 17 authored models captured at ADS for world FOV60/75/100. Scope model inspection images force optics visible; manual GUI tests cover the full-screen scope.

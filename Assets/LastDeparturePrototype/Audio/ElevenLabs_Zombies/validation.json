@@ -1,0 +1,514 @@
+[
+  {
+    "file": "Arm_Sever_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "492BB47356C707CEE4BD223A5CCEE282E706C66CC5C4C02FBF14B758C75A79E3"
+  },
+  {
+    "file": "Arm_Sever_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "25CB27C23DC66BAAEB335FA969F9EAB4F81A0CD4771AA870F70A709AE0E24D98"
+  },
+  {
+    "file": "Arm_Sever_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "598F525C00DDD77D046578141A7592B66D4F7F2E5F77599C73FE1C717319A493"
+  },
+  {
+    "file": "Arm_Sever_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "4A4906ADB9696D3ABCAB7505177A3607505DCC0B4D4135F436DE9DE51BDF8EB5"
+  },
+  {
+    "file": "Blood_Splatter_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.68,
+    "sha256": "A363060916BC5044ECE6748F47C84251DB6CFA61F878C546F0A98CBDF342E43E"
+  },
+  {
+    "file": "Blood_Splatter_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.68,
+    "sha256": "157F659C590AB5E90BE661A65597F16064091201CDA6CBF4C47C92604ABBE2FC"
+  },
+  {
+    "file": "Blood_Splatter_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.68,
+    "sha256": "17E07F6178036B0EF3AE7B19E815CD4EF532C8BCBF387B0E6705BD4F26B25713"
+  },
+  {
+    "file": "Blood_Splatter_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.68,
+    "sha256": "5877AB11F1C487076E132C6FDBDD51A3A182B5847CFCC7F04559C2351E25E5FA"
+  },
+  {
+    "file": "Body_Fall_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "B6061948024C857E510483907763945C9BA96B13A694C18D16AD2BD2BF4E6BC4"
+  },
+  {
+    "file": "Body_Fall_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "C25782D72C703A9343CD41BA292D3291B3ECCA41AE1F6D1CFC24B6DD8CB91AE8"
+  },
+  {
+    "file": "Body_Fall_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "4DAE1F0C682B25BE8B3BCD706FE66C5BAC3C300BF9767B14C089AB13AC1CAF4E"
+  },
+  {
+    "file": "Body_Fall_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "2B31945680EBBBA6E6E9EA496376A3DF423A3E31358D5AC96F9DEE7AC5C2CB35"
+  },
+  {
+    "file": "Flesh_Bullet_Impact_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "6D16176D5966CCFD6D4FB30BFD613B01493B6C585276A705030F3EFD6CE7D351"
+  },
+  {
+    "file": "Flesh_Bullet_Impact_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "1895EC880503E920F196ABCFAB4B500DF6C7F25DC4A99E87899F8E46D3811A7C"
+  },
+  {
+    "file": "Flesh_Bullet_Impact_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "108218928D617DAC6FADE1FBC2DB090E362979438226A29A19F2D165412AC59A"
+  },
+  {
+    "file": "Flesh_Bullet_Impact_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "49C43A4A2C719A30C5252632EA9E03789578B34F9F54C224D628895A94B8C84F"
+  },
+  {
+    "file": "Head_Sever_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "5B7BEDCC7B99374E3ADBDF800B142AE5E8499AB01125DED5FADBAB11B7B14EC4"
+  },
+  {
+    "file": "Head_Sever_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "BC3687A9279266057321EDBB7E12BB142EF700340458FF1E0E1B4ABB162CF3FA"
+  },
+  {
+    "file": "Head_Sever_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "2557C96547BDD4D93B5B1F0012C1AA93D13E153A0F1712A7AB2DC3118AA91531"
+  },
+  {
+    "file": "Head_Sever_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "A97677532D30ACEF6CDD5DC02FF113089E55DBA338AD91AEB1FA348438277F9F"
+  },
+  {
+    "file": "Leg_Sever_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "D9AD498EA106FBAC19AC5859E9469F760119FF234F8AA5A86A1696ADB24C8681"
+  },
+  {
+    "file": "Leg_Sever_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "46BAAEAA7829296762DB9F5C17AA10359C689DEAB1966B14E613CCFF0B0C0DB1"
+  },
+  {
+    "file": "Leg_Sever_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "47E8DA49E4F61B036F1E2A2745999AA3A3B33770B504E044F02F851BB2417718"
+  },
+  {
+    "file": "Leg_Sever_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "55D65DACF1EF889A5108B8B21878141498B3E7B3963BCCFB8F91A60794EB73B4"
+  },
+  {
+    "file": "Limb_Land_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "042A2F3E501ADC66B8321C47D6124BF4784EB5EFADEE9A0201DE075DE866569E"
+  },
+  {
+    "file": "Limb_Land_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "80522D0C19D61AC5A0EC4D22BCA413564F7D8EC93C9147640BC8FF275F32E08D"
+  },
+  {
+    "file": "Limb_Land_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "467C10EBBE681FEF275264CC1805B666BD342B48B049353FCDB180E259B8DEC3"
+  },
+  {
+    "file": "Limb_Land_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "000D2C40A15470298A6894668E6046BBD723A82B5F0A863BC83B95892D1066FB"
+  },
+  {
+    "file": "Zombie_Attack_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "D52D640585A271B8BE54E9D33881253EF372DD26BF0390C4F51809F22511C658"
+  },
+  {
+    "file": "Zombie_Attack_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "FB5A7BB53166EF77418544FAB859C05446AAD18C9097B18B18AFCCB92B3BA56B"
+  },
+  {
+    "file": "Zombie_Attack_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "B36955B21672AC54E29A7FB744750469DE11E50FA3A32571D879B3E41F8BD88B"
+  },
+  {
+    "file": "Zombie_Attack_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "A2F108CE525B8325E0EA3EFAA6B7465D1A10885A7D779A4B92CC06E48C5A91F9"
+  },
+  {
+    "file": "Zombie_Bite_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.88,
+    "sha256": "810D2E9790AC22A19E044D46A5134FE8CA62F9E4674EA051B47FEAF8F3667DF6"
+  },
+  {
+    "file": "Zombie_Bite_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.88,
+    "sha256": "CDDE9C9E169EC5F44202E8B8ABD130C969AB390D6D920FACB1A5094EDBB6F6BB"
+  },
+  {
+    "file": "Zombie_Bite_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.88,
+    "sha256": "AA235FBE91571ABD254E5330BCCFE806EB23B306DAF12390FEC910E4C5E4E013"
+  },
+  {
+    "file": "Zombie_Bite_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.88,
+    "sha256": "9A9C40A6AC1E31FA9AAC894BA8DC9B1C134FC30233B29D9D88BCF92B48AEC6A1"
+  },
+  {
+    "file": "Zombie_Crawl_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "164BEA1EBFA61817AB3DBD8C1B56971B9C6B5327F46C07DBCC52B5DBAF8D9FBE"
+  },
+  {
+    "file": "Zombie_Crawl_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "A8EC1215034274A5EEF72F5E81525A829E89E8052BA77F5115BF29F3E75D5C35"
+  },
+  {
+    "file": "Zombie_Crawl_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "A2292E84295E568E33ECDDE2A5962CEC979592561CF7DCF1D2AFDEB4D1ABAD49"
+  },
+  {
+    "file": "Zombie_Crawl_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.2,
+    "sha256": "45201B73B8989496F2A7AB44044A23B737DF033AAF0F79FB62AB91822736AF9E"
+  },
+  {
+    "file": "Zombie_Death_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 3.0,
+    "sha256": "8538C82386045DD426C4B04C4C2DF8CB28C536F19D21C58ACE033BBF5949AEC1"
+  },
+  {
+    "file": "Zombie_Death_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 3.0,
+    "sha256": "CA9166EAC2395E126AA34FD65C640C79F2750C9E58BCBD95C600C8E62F5693F8"
+  },
+  {
+    "file": "Zombie_Death_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 3.0,
+    "sha256": "47DB71A91EA46D852509559C8959792E4468FF8B6D7943DA52B461CE97C9E0C8"
+  },
+  {
+    "file": "Zombie_Death_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 3.0,
+    "sha256": "766D50A6E549F35F76F413962698664FFB725F456F8FCEE3188BB941B9FDE6BB"
+  },
+  {
+    "file": "Zombie_Gag_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "C9844001C41F67FF7CD1E785549D53DE27217A8786923BE10BEB9FFC11C39615"
+  },
+  {
+    "file": "Zombie_Gag_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "4982FDE6627F9EA7FF8A3F4BA799EDDC3B05A00AB605DABDC1CF59D064EE5E2C"
+  },
+  {
+    "file": "Zombie_Gag_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "6322585B2B7756E529C0521324BD88A238B9846462F625EBF44BB37E9BCC3983"
+  },
+  {
+    "file": "Zombie_Gag_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "66D5750D4550FF5A795FAB272F7E0DB2EBBFEA6175AB7574318808B09A91ABD2"
+  },
+  {
+    "file": "Zombie_Hiss_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "C16DB07A4B0529BFC7555E6B49AA31D1990FE9255348127B20B9F206E7F66470"
+  },
+  {
+    "file": "Zombie_Hiss_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "5957B315B720DBB322BFA4261A45B63360FC46D1DCD537D889BD9E2B02C3768B"
+  },
+  {
+    "file": "Zombie_Hiss_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "C1614A77B9F0D4B3680391A8B7FD5FBE4C2725A6CA03E222D1AA9B1ABD8DD19A"
+  },
+  {
+    "file": "Zombie_Hiss_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.6,
+    "sha256": "EE13B58D1DC1563C55E40CDA0B805BEB6EE9231AD0A2685219A3C2031B217C2B"
+  },
+  {
+    "file": "Zombie_Idle_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "EFD64C030335B85C34BBEEC710E3AFC3A311E74FDAE5483935A1FA7AB899F688"
+  },
+  {
+    "file": "Zombie_Idle_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "A650673BFCCF300061FE8491E1428153E3F182416EE9A50A98EA7A8B327386FF"
+  },
+  {
+    "file": "Zombie_Idle_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "B6B17675BE128393B3EFAA09BBA7364911515CFC1180F76AFDEE4282D01A4766"
+  },
+  {
+    "file": "Zombie_Idle_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.48,
+    "sha256": "70085A44DAE7762897F1B2C8F32BF15ACA2A1DAE485549B4B020F2AD0C3BD11F"
+  },
+  {
+    "file": "Zombie_Pain_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "310B24AA8F610F540FA075530E5805CBB4CB61BD46BDB84952FD8C775C8EE36B"
+  },
+  {
+    "file": "Zombie_Pain_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "E4E70AE31E4335A0242DB4002E1CB0152FB6D9041BD35869BFB7585B2B13CFBF"
+  },
+  {
+    "file": "Zombie_Pain_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "4059FD553127E6CCAA052FF967429E57210713137CFCD85214B633BA048EEDEE"
+  },
+  {
+    "file": "Zombie_Pain_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 1.0,
+    "sha256": "500A57C11C242C67B98AE33A321C1749B165DABBC9EA371D05DDF24AF45FA01D"
+  },
+  {
+    "file": "Zombie_Shuffle_01.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "4DB3BD97C0E178B3256DCC82CEDE32E107C4F5DDDE5CF0CEA024D959DEF049AE"
+  },
+  {
+    "file": "Zombie_Shuffle_02.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "54C9BEB6FCF0E3B2D5FEFEC7618981700297082B4E863FD9ABC22F7796335EC7"
+  },
+  {
+    "file": "Zombie_Shuffle_03.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "C74019A3B5D8D623EC74FC806BE5A84344A4062E3FFA301D7C087D5249985869"
+  },
+  {
+    "file": "Zombie_Shuffle_04.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "seconds": 0.8,
+    "sha256": "AF0A6693FCB64342BD1D82A8475BD2DB88A1BC60824484E4AEEC76FA82AE315B"
+  }
+]

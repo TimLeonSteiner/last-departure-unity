@@ -1,0 +1,44 @@
+PASS New run starts with only the pistol
+PASS Weapon grant equips Persuader alongside starter Beretta
+PASS Weapon grant keeps previous weapon and finite ammunition
+PASS Switch restores depleted starter ammunition
+PASS Switching back preserves shot recovery
+PASS Other slot retains its own magazine and reserve
+PASS Reload begins on current weapon
+PASS Switch cancels unfinished reload
+PASS Canceled reload grants no ammunition
+PASS Duplicate grant replenishes existing slot without duplication
+PASS Grants below capacity create no extra floor weapons
+PASS Weapon grants never exceed four unique slots
+PASS Mouse-wheel slot selection wraps in both directions
+PASS Number 6 selects fourth weapon; 4 and 5 remain tools
+PASS Weapon hotkeys yield to defense keys in build mode
+PASS Pause blocks weapon switching
+PASS Death blocks weapon switching
+PASS Invalid slots cannot grant weapons
+PASS Compact inventory keeps every selected weapon visible and clears corner HUD at width 1000
+PASS Compact inventory keeps every selected weapon visible and clears corner HUD at width 1280
+PASS Compact inventory keeps every selected weapon visible and clears corner HUD at width 1920
+PASS E pickup swaps equipped weapon when four slots are full
+PASS Swapped weapon keeps exact magazine and reserve on the ground
+PASS Inventory drop removes selected unequipped slot only
+PASS G drops equipped weapon and selects remaining weapon
+PASS Dropping last weapon leaves player unarmed
+PASS Unarmed player cannot fire or reload
+PASS Dropped weapon can be recovered without refilling ammunition
+PASS Dropping and recovering cannot bypass shot cooldown
+PASS Restart restores wave-one inventory
+COMPLETE inventory 2026-11-13T20:17:29
+
+PASS Peer begins with starter only
+PASS Peer chest adds firearm and full finite ammunition
+PASS Peer switch restores starter ammo and preserves shot cooldown, cancels reload
+PASS Peer switch restores second weapon ammunition and cooldown
+PASS Host rejects unowned peer weapon switch
+PASS Repeated chest reward cannot duplicate peer slot
+PASS Stale peer ground-pickup command is inert
+PASS Peer full inventory swaps equipped weapon
+PASS Peer swap preserves dropped ammunition
+PASS Snapshot capture does not recreate a dropped last weapon
+PASS Unarmed peer can acquire a weapon again
+COMPLETE peer inventory helpers 2026-11-13T20:17:29. Actual two-browser synchronization test remains required.

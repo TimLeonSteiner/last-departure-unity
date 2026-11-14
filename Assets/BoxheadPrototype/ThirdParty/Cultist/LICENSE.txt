@@ -1,4 +1,0 @@
-Cultist by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/60f6f26ac2054b09a0b4757fbc771d18
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, runtime placement and humanoid retargeting or separated pickup meshes.

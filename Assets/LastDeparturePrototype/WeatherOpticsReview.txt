@@ -1,0 +1,8 @@
+PASS Rain uses URP local lighting/shadows rather than unlit blue
+PASS Live outdoor particles=708, particles under warehouse roof=0
+PASS Shadowed torch uses smooth falloff and excludes hands/weapons
+PASS Four localized entrance light pools
+PASS Entrance optical glow profile retained for build
+PASS Opaque-roof depth blocks outside particles: rendered mean difference=0,0000000
+PASS Opaque-wall depth blocks outside particles: rendered mean difference=0,0000000
+COMPLETE 2026-10-09T22:57:56. Images are actual fresh Play world-camera views; visual inspection required.

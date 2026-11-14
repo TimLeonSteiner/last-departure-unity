@@ -1,4 +1,0 @@
-Cultist T-pose by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/4ed6ff150848409b99ef64f6d61310a9
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, runtime placement and humanoid retargeting or separated pickup meshes.

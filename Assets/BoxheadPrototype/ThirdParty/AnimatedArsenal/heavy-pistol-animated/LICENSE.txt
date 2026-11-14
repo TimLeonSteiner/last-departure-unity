@@ -1,4 +1,0 @@
-heavy-pistol-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/b7c78c533ced40cd986c44594b778ed6
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

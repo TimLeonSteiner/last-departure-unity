@@ -1,8 +1,0 @@
-Gaming slot machine
-Creator: Yuliya Kaminskaya
-Source: https://www.blendkit.com/asset-gallery-detail/5e728792-a6d5-4f6d-8021-dee9d4542f8b/
-Downloaded through the public BlenderKit download API, 11 October 2026.
-License: BlenderKit Royalty Free. Free asset; used as an embedded component of Dustline 27.
-License terms: https://www.blendkit.com/docs/licenses/
-Original source retained as GamingSlotMachine.blend.source. Converted to FBX/PNG for Unity.
-Runtime display and gameplay controls added for Dustline 27. Do not redistribute as a standalone asset pack.

@@ -1,1 +1,0 @@
-PASS: active and saved scene Assets/Boxhead.unity; build/start scene set; warehouse roof, window openings, four freight footprints and loading lanes created. Runtime/audio testing pending.

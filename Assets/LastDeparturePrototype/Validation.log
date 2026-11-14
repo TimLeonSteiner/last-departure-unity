@@ -1,0 +1,11 @@
+2026-11-14T16:27:29 FAIL: System.Exception: Solid outer wall stops shot on side 0
+  at YardSurvivalPrototype.YardSurvival+<>c.<RunSmokeChecks>b__1399_0 (System.Boolean ok, System.String label) [0x0000a] in D:\Unity Projects\Einrichtungsanleitung – Tutorial im Editor\Assets\LastDeparturePrototype\Scripts\YardSurvival.cs:1175 
+  at YardSurvivalPrototype.YardSurvival.RunSmokeChecks () [0x00285] in D:\Unity Projects\Einrichtungsanleitung – Tutorial im Editor\Assets\LastDeparturePrototype\Scripts\YardSurvival.cs:1192 
+  at YardPrototypeEditor.RunChecks () [0x0002b] in D:\Unity Projects\Einrichtungsanleitung – Tutorial im Editor\Assets\LastDeparturePrototype\Editor\YardPrototypeEditor.cs:330 
+  at YardPrototypeEditor.Poll () [0x007b4] in D:\Unity Projects\Einrichtungsanleitung – Tutorial im Editor\Assets\LastDeparturePrototype\Editor\YardPrototypeEditor.cs:224 
+2026-11-14T16:52:35 BROWSER PAGE: responsive FPS canvas, Dustline 27 title and graceful mouse-capture failure handling applied.
+2026-11-14T16:52:35 BROWSER BUILD: Succeeded; errors: 0; output: C:\Users\Eridi\AppData\Local\Temp\YardSurvival-WebGL
+2026-11-14T17:07:02 BROWSER PAGE: responsive FPS canvas, Dustline 27 title and graceful mouse-capture failure handling applied.
+2026-11-14T17:07:02 BROWSER BUILD: Succeeded; errors: 0; output: C:\Users\Eridi\AppData\Local\Temp\YardSurvival-WebGL
+2026-11-14T17:30:17 BROWSER PAGE: responsive FPS canvas, Dustline 27 title and graceful mouse-capture failure handling applied.
+2026-11-14T17:30:17 BROWSER BUILD: Succeeded; errors: 0; output: C:\Users\Eridi\AppData\Local\Temp\YardSurvival-WebGL

@@ -1,0 +1,21 @@
+PASS Exact 65% win odds and 160% expected return, including stake
+PASS Downloaded BlenderKit mesh instantiated in the actual game
+PASS Existing machine button hit areas select minus, plus, spin
+PASS Clicking model plus button increases stake
+PASS Clicking model minus button decreases stake
+PASS Clicking model spin button consumes click and starts paid spin
+PASS Clicks away from machine are not intercepted
+PASS Remote clicks cannot operate the machine
+PASS Minimum bet is one
+PASS Bet capped to available scrap
+PASS Invalid / unaffordable bets rejected without charging
+PASS Distant and dead players cannot spin
+PASS Accepted spin deducts stake exactly once
+PASS Stake buttons cannot change during a spin
+PASS Concurrent spin cannot spend again
+PASS Jackpot settles once with gross payout
+PASS Repeated update cannot pay twice
+PASS Losing spin only costs the stake
+PASS Machine blocks construction and movement
+PASS New run resets machine and bet
+PASS Spin button action starts a real paid spin

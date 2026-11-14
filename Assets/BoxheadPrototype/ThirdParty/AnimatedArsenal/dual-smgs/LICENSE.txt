@@ -1,4 +1,0 @@
-dual-smgs by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/faf517bf83fd4029b4814f28f09881bb
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

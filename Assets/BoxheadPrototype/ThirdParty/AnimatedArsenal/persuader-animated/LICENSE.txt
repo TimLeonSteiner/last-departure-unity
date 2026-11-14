@@ -1,4 +1,0 @@
-persuader-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/c915c024e4e44d9fad250242d094d4e2
-CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

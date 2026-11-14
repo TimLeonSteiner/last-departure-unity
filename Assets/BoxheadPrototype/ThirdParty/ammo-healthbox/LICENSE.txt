@@ -1,4 +1,0 @@
-Ammo and health box by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/0195d3e483e94f68964bbfa1ebb5c6f5
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, runtime placement and humanoid retargeting or separated pickup meshes.

@@ -1,8 +1,0 @@
-Pxltiger BOUNDS Center: (200.00, 10.89, 200.26), Extents: (0.36, 0.90, 0.54) root=(200.00, 10.00, 200.00) scale=(1.01, 1.01, 1.01) rig=(200.00, 10.00, 200.00) rigScale=(1.01, 1.01, 1.01) hip=(200.00, 10.88, 199.95)
-PASS Pxltiger human height 1,799988
-PASS Pxltiger walk animates
-PASS Pxltiger head ray detects head
-PASS Pxltiger URP material Pxltiger-Zombie
-FAIL System.Exception: Pxltiger sever region 0
-  at RealisticZombieImport.Check (System.Boolean pass, System.String message, System.Text.StringBuilder report) [0x0001c] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RealisticZombieReview.cs:97 
-  at RealisticZombieImport.Review () [0x006bd] in C:\Users\Eridi\Einrichtungsanleitung – Tutorial im Editor\Assets\BoxheadPrototype\Editor\RealisticZombieReview.cs:58 

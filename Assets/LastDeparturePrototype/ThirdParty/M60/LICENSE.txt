@@ -1,0 +1,7 @@
+M60 machine gun
+Author: mightydinosaurcol
+Source: https://opengameart.org/content/m60-machine-gun
+License selected: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Downloaded 2026-10-09. Mesh and textures by mightydinosaurcol.
+Adaptations: Unity materials, scale/orientation, weapon rig and reload setup.

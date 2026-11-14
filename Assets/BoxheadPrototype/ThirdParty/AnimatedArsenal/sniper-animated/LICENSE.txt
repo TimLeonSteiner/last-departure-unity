@@ -1,4 +1,0 @@
-sniper-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/eae1ba5b43ae4bc89b0647fb5d8a2d27
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

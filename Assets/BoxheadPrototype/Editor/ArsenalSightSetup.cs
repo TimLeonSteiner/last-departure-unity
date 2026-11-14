@@ -1,6 +1,0 @@
-using System;using System.IO;using UnityEditor;using UnityEngine;using YardSurvivalPrototype;
-[InitializeOnLoad] public static class ArsenalSightSetup {
-static ArsenalSightSetup(){EditorApplication.update+=Poll;}
-static void Poll(){const string file="Assets/BoxheadPrototype/SightCalibration.request";if(!File.Exists(file)||EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.isPlayingOrWillChangePlaymode)return;File.Delete(file);try{Run();}catch(Exception e){File.WriteAllText("Assets/BoxheadPrototype/SightCalibration.txt","FAIL "+e);Debug.LogException(e);}}
-public static void Run(){string report="";for(int id=0;id<AnimatedArsenalImport.Packages.Length;id++){string path=AnimatedArsenalImport.Root+"/"+AnimatedArsenalImport.Packages[id]+"/Playable.prefab";var obj=PrefabUtility.LoadPrefabContents(path);try{var rig=obj.GetComponent<AnimatedWeaponRig>();AnimatedArsenalImport.RepairLongGunSights(rig,id);PrefabUtility.SaveAsPrefabAsset(obj,path);report+=id+" "+rig.calibratedSights+" aim="+rig.aimPosition+" rear="+rig.rearSight+" front="+rig.frontSight+"\n";}finally{PrefabUtility.UnloadPrefabContents(obj);}}AssetDatabase.SaveAssets();File.WriteAllText("Assets/BoxheadPrototype/SightCalibration.txt",report);}
-}

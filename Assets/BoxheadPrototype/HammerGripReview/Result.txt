@@ -1,5 +1,0 @@
-Hammer grip calibration 2026-11-13T23:23:44
-Before handle/up angle: 0
-After handle/up angle: 0
-Saved palm-local grip rotation: (-0.38914, 0.44962, 0.05310, -0.80224)
-PASS: upright resting handle; prefab saved; original hand attachment and swing retained. Inspect rendered poses.

@@ -1,0 +1,352 @@
+BasArrière1 bounds=Center: (0.00, 0.30, -0.32), Extents: (0.46, 0.25, 0.03) mats=CoffreBois
+Panneau1 bounds=Center: (0.00, 0.41, -0.32), Extents: (0.73, 0.15, 0.02) mats=autres
+Panneau1b bounds=Center: (0.00, 0.55, -0.32), Extents: (0.39, 0.00, 0.02) mats=autres
+SupportPanneau bounds=Center: (0.00, 0.47, -0.31), Extents: (0.16, 0.21, 0.01) mats=autres
+PanneauSup1 bounds=Center: (0.01, 0.38, -0.31), Extents: (0.31, 0.19, 0.02) mats=autres
+PanneauSup2 bounds=Center: (0.19, 0.39, -0.31), Extents: (0.14, 0.15, 0.01) mats=autres
+PanneauSup2b bounds=Center: (0.19, 0.39, -0.31), Extents: (0.13, 0.14, 0.01) mats=autres
+PanneauSup3 bounds=Center: (-0.19, 0.39, -0.31), Extents: (0.11, 0.13, 0.01) mats=autres
+PanneauSup3b bounds=Center: (-0.19, 0.38, -0.31), Extents: (0.11, 0.12, 0.01) mats=autres
+SupportBasArrière bounds=Center: (0.00, 0.95, -0.32), Extents: (0.06, 0.90, 0.01) mats=autres
+BasAvant1 bounds=Center: (0.23, 0.30, 0.33), Extents: (0.23, 0.25, 0.02) mats=CoffreBois
+Serrure1 bounds=Center: (0.00, 0.46, 0.27), Extents: (0.05, 0.05, 0.10) mats=CoffreMetal+Machine
+Serrure2 bounds=Center: (0.00, 0.46, 0.33), Extents: (0.05, 0.05, 0.04) mats=CoffreMetal+Machine
+Clé bounds=Center: (0.00, 0.46, 0.38), Extents: (0.01, 0.04, 0.08) mats=CoffreMetal+Machine
+BasAvant2 bounds=Center: (-0.23, 0.30, 0.33), Extents: (0.23, 0.25, 0.02) mats=CoffreBois
+BasD bounds=Center: (-0.48, 0.30, 0.00), Extents: (0.02, 0.25, 0.30) mats=CoffreBois
+BasDessous bounds=Center: (0.00, 0.02, 0.00), Extents: (0.46, 0.02, 0.31) mats=CoffreBois
+BasFixe bounds=Center: (0.00, 0.30, 0.00), Extents: (0.51, 0.30, 0.35) mats=CoffreMetal+Machine
+BasG bounds=Center: (0.48, 0.30, 0.00), Extents: (0.02, 0.25, 0.30) mats=CoffreBois
+CarteAs bounds=Center: (0.46, 0.22, 0.09), Extents: (0.00, 0.04, 0.06) mats=images
+CarteJack bounds=Center: (0.46, 0.32, 0.09), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP1 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP002 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP003 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP004 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP005 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP006 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP007 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP008 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP009 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP010 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP011 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP012 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP013 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP014 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP015 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP016 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP017 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP018 bounds=Center: (0.46, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP019 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP020 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP021 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP022 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP023 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP024 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP025 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP026 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP027 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP028 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP029 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP030 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP031 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP032 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP033 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP034 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP035 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP036 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP037 bounds=Center: (0.45, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP038 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP039 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP040 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP041 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP042 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP043 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP044 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP045 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP046 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP047 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP048 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP049 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP050 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+CarteP051 bounds=Center: (0.44, 0.44, -0.15), Extents: (0.00, 0.04, 0.06) mats=images
+SupportCartes1 bounds=Center: (0.44, 0.44, -0.16), Extents: (0.02, 0.05, 0.07) mats=CoffreBois
+SupportCartes2 bounds=Center: (0.46, 0.32, 0.09), Extents: (0.01, 0.05, 0.07) mats=CoffreBois
+SupportCartes3 bounds=Center: (0.46, 0.22, 0.09), Extents: (0.01, 0.05, 0.07) mats=CoffreBois
+Cache1 bounds=Center: (0.46, 0.75, 0.00), Extents: (0.00, 0.15, 0.30) mats=Caches
+Cache2 bounds=Center: (0.46, 0.30, 0.00), Extents: (0.00, 0.25, 0.31) mats=Caches
+Cache3 bounds=Center: (-0.34, 0.30, 0.00), Extents: (0.00, 0.25, 0.31) mats=Caches
+Cache5 bounds=Center: (0.00, 0.55, 0.00), Extents: (0.46, 0.00, 0.31) mats=Caches
+CacheMisère bounds=Center: (-0.34, 0.30, 0.00), Extents: (0.00, 0.25, 0.31) mats=Caches
+Couvercle1 bounds=Center: (0.00, 0.77, 0.00), Extents: (0.45, 0.17, 0.34) mats=CoffreBois
+SupportRoulette bounds=Center: (0.00, 0.63, 0.00), Extents: (0.03, 0.27, 0.02) mats=CoffreMetal+Machine
+Roulette bounds=Center: (0.00, 0.65, 0.00), Extents: (0.33, 0.14, 0.33) mats=autres
+CouvercleD2 bounds=Center: (-0.47, 0.75, 0.00), Extents: (0.03, 0.15, 0.30) mats=CoffreBois
+CouvercleD2bis bounds=Center: (-0.47, 0.73, 0.00), Extents: (0.03, 0.04, 0.17) mats=CoffreBois
+CouvercleFixe bounds=Center: (0.00, 0.78, 0.00), Extents: (0.51, 0.18, 0.35) mats=CoffreMetal+Machine
+CouvercleG bounds=Center: (0.46, 0.75, 0.00), Extents: (0.04, 0.15, 0.30) mats=CoffreBois
+Dé bounds=Center: (0.44, 0.83, -0.01), Extents: (0.01, 0.01, 0.01) mats=images
+Dé2 bounds=Center: (0.44, 0.83, 0.01), Extents: (0.01, 0.01, 0.01) mats=images
+SupportDés bounds=Center: (0.43, 0.84, 0.00), Extents: (0.02, 0.03, 0.04) mats=CoffreBois
+Machine bounds=Center: (0.00, 0.29, 0.00), Extents: (0.34, 0.24, 0.20) mats=CoffreMetal+Machine
+BaseManivelle bounds=Center: (0.35, 0.46, -0.03), Extents: (0.03, 0.03, 0.03) mats=CoffreMetal+Machine
+SupportManivelle bounds=Center: (0.27, 0.46, -0.03), Extents: (0.10, 0.00, 0.00) mats=CoffreMetal+Machine
+Bouton1 bounds=Center: (0.21, 0.19, 0.12), Extents: (0.05, 0.02, 0.03) mats=CoffreMetal+Machine
+Bouton2 bounds=Center: (0.00, 0.19, 0.12), Extents: (0.05, 0.02, 0.03) mats=CoffreMetal+Machine
+RoueMachine bounds=Center: (0.00, 0.36, -0.03), Extents: (0.09, 0.13, 0.13) mats=images
+RoueMachine001 bounds=Center: (-0.21, 0.36, -0.03), Extents: (0.09, 0.13, 0.13) mats=images
+RoueMachine002 bounds=Center: (0.21, 0.36, -0.03), Extents: (0.09, 0.13, 0.13) mats=images
+PinceBouteille bounds=Center: (-0.01, 0.29, 0.00), Extents: (0.37, 0.04, 0.06) mats=CoffreMetal+Machine
+Bouteille1_low bounds=Center: (-0.33, 0.30, 0.00), Extents: (0.06, 0.13, 0.06) mats=images
+Bouteille2_low bounds=Center: (-0.33, 0.45, 0.00), Extents: (0.04, 0.02, 0.05) mats=images
+PinceVerre bounds=Center: (0.00, 0.22, 0.17), Extents: (0.36, 0.02, 0.04) mats=CoffreMetal+Machine
+Verre bounds=Center: (-0.33, 0.22, 0.17), Extents: (0.04, 0.04, 0.04) mats=autres
+SupportBoiteJetons bounds=Center: (-0.12, 0.77, 0.00), Extents: (0.13, 0.05, 0.08) mats=CoffreBois
+BoiteJetons bounds=Center: (-0.28, 0.71, 0.01), Extents: (0.04, 0.02, 0.15) mats=CoffreBois
+Boule bounds=Center: (-0.28, 0.71, -0.12), Extents: (0.01, 0.01, 0.01) mats=autres
+JetonA bounds=Center: (-0.28, 0.73, 0.16), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA001 bounds=Center: (-0.28, 0.73, 0.15), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA002 bounds=Center: (-0.28, 0.73, 0.14), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA003 bounds=Center: (-0.28, 0.73, 0.14), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA004 bounds=Center: (-0.28, 0.73, 0.13), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA005 bounds=Center: (-0.28, 0.73, 0.13), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA006 bounds=Center: (-0.28, 0.73, 0.12), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA007 bounds=Center: (-0.28, 0.73, 0.12), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA008 bounds=Center: (-0.28, 0.73, 0.11), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA009 bounds=Center: (-0.28, 0.73, 0.11), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA010 bounds=Center: (-0.28, 0.73, 0.10), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA011 bounds=Center: (-0.28, 0.73, 0.10), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA012 bounds=Center: (-0.28, 0.73, 0.09), Extents: (0.03, 0.03, 0.00) mats=images
+JetonA013 bounds=Center: (-0.28, 0.73, 0.09), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB bounds=Center: (-0.28, 0.73, 0.08), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB001 bounds=Center: (-0.28, 0.73, 0.07), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB002 bounds=Center: (-0.28, 0.73, 0.07), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB003 bounds=Center: (-0.28, 0.73, 0.06), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB004 bounds=Center: (-0.28, 0.73, 0.06), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB005 bounds=Center: (-0.28, 0.73, 0.05), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB006 bounds=Center: (-0.28, 0.73, 0.05), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB007 bounds=Center: (-0.28, 0.73, 0.04), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB008 bounds=Center: (-0.28, 0.73, 0.04), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB009 bounds=Center: (-0.28, 0.73, 0.03), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB010 bounds=Center: (-0.28, 0.73, 0.03), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB011 bounds=Center: (-0.28, 0.73, 0.02), Extents: (0.03, 0.03, 0.00) mats=images
+JetonB012 bounds=Center: (-0.28, 0.73, 0.01), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC bounds=Center: (-0.28, 0.73, 0.01), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC001 bounds=Center: (-0.28, 0.73, 0.00), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC002 bounds=Center: (-0.28, 0.73, 0.00), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC003 bounds=Center: (-0.28, 0.73, -0.01), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC004 bounds=Center: (-0.28, 0.73, -0.01), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC005 bounds=Center: (-0.28, 0.73, -0.02), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC006 bounds=Center: (-0.28, 0.73, -0.03), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC007 bounds=Center: (-0.28, 0.73, -0.03), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC008 bounds=Center: (-0.28, 0.73, -0.04), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC009 bounds=Center: (-0.28, 0.73, -0.04), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC010 bounds=Center: (-0.28, 0.73, -0.05), Extents: (0.03, 0.03, 0.00) mats=images
+JetonC011 bounds=Center: (-0.28, 0.73, -0.05), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD bounds=Center: (-0.28, 0.73, -0.06), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD001 bounds=Center: (-0.28, 0.73, -0.06), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD002 bounds=Center: (-0.28, 0.73, -0.07), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD003 bounds=Center: (-0.28, 0.73, -0.08), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD004 bounds=Center: (-0.28, 0.73, -0.08), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD005 bounds=Center: (-0.28, 0.73, -0.09), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD006 bounds=Center: (-0.28, 0.73, -0.09), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD007 bounds=Center: (-0.28, 0.73, -0.10), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD008 bounds=Center: (-0.28, 0.73, -0.10), Extents: (0.03, 0.03, 0.00) mats=images
+JetonD009 bounds=Center: (-0.28, 0.73, -0.11), Extents: (0.03, 0.03, 0.00) mats=images
+SupportBoule bounds=Center: (-0.28, 0.71, -0.12), Extents: (0.01, 0.01, 0.01) mats=CoffreBois
+CLIP Take 001 seconds=78
+CLIP __preview__Take 001 seconds=78,04
+SAMPLE 0 Couvercle1 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.93, 0.00)
+SAMPLE 0 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 0 CouvercleD2bis rot=(0.00, 90.00, 0.00) pos=(-0.47, 0.73, 0.00)
+SAMPLE 0 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 0 CouvercleG rot=(0.00, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 5 Couvercle1 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.93, 0.00)
+SAMPLE 5 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 5 CouvercleD2bis rot=(0.00, 90.00, 0.00) pos=(-0.47, 0.73, 0.00)
+SAMPLE 5 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 5 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 10 Couvercle1 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.93, 0.00)
+SAMPLE 10 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 10 CouvercleD2bis rot=(0.00, 90.00, 0.00) pos=(-0.47, 0.73, 0.00)
+SAMPLE 10 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 10 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 20 Couvercle1 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.93, 0.00)
+SAMPLE 20 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 20 CouvercleD2bis rot=(0.00, 156.49, 0.00) pos=(0.01, 0.45, -0.05)
+SAMPLE 20 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 20 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 40 Couvercle1 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.93, 0.00)
+SAMPLE 40 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 40 CouvercleD2bis rot=(0.00, 179.82, 0.00) pos=(0.01, 0.29, 0.27)
+SAMPLE 40 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 40 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 60 Couvercle1 rot=(0.00, 90.00, 179.78) pos=(0.00, 0.93, 0.00)
+SAMPLE 60 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 60 CouvercleD2bis rot=(0.00, 179.82, 0.00) pos=(0.01, 0.29, 0.27)
+SAMPLE 60 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 60 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+SAMPLE 78 Couvercle1 rot=(0.00, 90.00, 179.78) pos=(0.00, 0.93, 0.00)
+SAMPLE 78 CouvercleD2 rot=(0.00, 90.00, 0.00) pos=(0.00, 0.78, 0.00)
+SAMPLE 78 CouvercleD2bis rot=(0.00, 179.82, 0.00) pos=(0.01, 0.29, 0.27)
+SAMPLE 78 CouvercleFixe rot=(0.00, 90.00, 0.00) pos=(0.00, 0.60, 0.00)
+SAMPLE 78 CouvercleG rot=(89.97, 90.00, 0.00) pos=(0.50, 0.60, 0.00)
+NODE TreasureChest(Clone) scale=(1.00, 1.00, 1.00)
+NODE BasArrière1 scale=(1.00, 1.00, 1.00)
+NODE Panneau1 scale=(1.00, 1.00, 1.00)
+NODE Panneau1b scale=(1.00, 1.00, 1.00)
+NODE SupportPanneau scale=(1.00, 1.00, 1.00)
+NODE PanneauSup1 scale=(1.00, 1.00, 1.00)
+NODE PanneauSup2 scale=(1.00, 1.00, 1.00)
+NODE PanneauSup2b scale=(1.00, 1.00, 1.00)
+NODE PanneauSup3 scale=(1.00, 1.00, 1.00)
+NODE PanneauSup3b scale=(1.00, 1.00, 1.00)
+NODE SupportBasArrière scale=(1.00, 1.00, 1.00)
+NODE BasAvant1 scale=(1.00, 1.00, 1.00)
+NODE Serrure1 scale=(1.00, 1.00, 1.00)
+NODE Serrure2 scale=(1.00, 1.00, 1.00)
+NODE Clé scale=(1.00, 1.00, 1.00)
+NODE BasAvant2 scale=(1.00, 1.00, 1.00)
+NODE BasD scale=(1.00, 1.00, 1.00)
+NODE BasDessous scale=(1.00, 1.00, 1.00)
+NODE BasFixe scale=(1.00, 1.00, 1.00)
+NODE BasG scale=(1.00, 1.00, 1.00)
+NODE CarteAs scale=(1.00, 1.00, 1.00)
+NODE CarteJack scale=(1.00, 1.00, 1.00)
+NODE CarteP1 scale=(1.00, 1.00, 1.00)
+NODE CarteP002 scale=(1.00, 1.00, 1.00)
+NODE CarteP003 scale=(1.00, 1.00, 1.00)
+NODE CarteP004 scale=(1.00, 1.00, 1.00)
+NODE CarteP005 scale=(1.00, 1.00, 1.00)
+NODE CarteP006 scale=(1.00, 1.00, 1.00)
+NODE CarteP007 scale=(1.00, 1.00, 1.00)
+NODE CarteP008 scale=(1.00, 1.00, 1.00)
+NODE CarteP009 scale=(1.00, 1.00, 1.00)
+NODE CarteP010 scale=(1.00, 1.00, 1.00)
+NODE CarteP011 scale=(1.00, 1.00, 1.00)
+NODE CarteP012 scale=(1.00, 1.00, 1.00)
+NODE CarteP013 scale=(1.00, 1.00, 1.00)
+NODE CarteP014 scale=(1.00, 1.00, 1.00)
+NODE CarteP015 scale=(1.00, 1.00, 1.00)
+NODE CarteP016 scale=(1.00, 1.00, 1.00)
+NODE CarteP017 scale=(1.00, 1.00, 1.00)
+NODE CarteP018 scale=(1.00, 1.00, 1.00)
+NODE CarteP019 scale=(1.00, 1.00, 1.00)
+NODE CarteP020 scale=(1.00, 1.00, 1.00)
+NODE CarteP021 scale=(1.00, 1.00, 1.00)
+NODE CarteP022 scale=(1.00, 1.00, 1.00)
+NODE CarteP023 scale=(1.00, 1.00, 1.00)
+NODE CarteP024 scale=(1.00, 1.00, 1.00)
+NODE CarteP025 scale=(1.00, 1.00, 1.00)
+NODE CarteP026 scale=(1.00, 1.00, 1.00)
+NODE CarteP027 scale=(1.00, 1.00, 1.00)
+NODE CarteP028 scale=(1.00, 1.00, 1.00)
+NODE CarteP029 scale=(1.00, 1.00, 1.00)
+NODE CarteP030 scale=(1.00, 1.00, 1.00)
+NODE CarteP031 scale=(1.00, 1.00, 1.00)
+NODE CarteP032 scale=(1.00, 1.00, 1.00)
+NODE CarteP033 scale=(1.00, 1.00, 1.00)
+NODE CarteP034 scale=(1.00, 1.00, 1.00)
+NODE CarteP035 scale=(1.00, 1.00, 1.00)
+NODE CarteP036 scale=(1.00, 1.00, 1.00)
+NODE CarteP037 scale=(1.00, 1.00, 1.00)
+NODE CarteP038 scale=(1.00, 1.00, 1.00)
+NODE CarteP039 scale=(1.00, 1.00, 1.00)
+NODE CarteP040 scale=(1.00, 1.00, 1.00)
+NODE CarteP041 scale=(1.00, 1.00, 1.00)
+NODE CarteP042 scale=(1.00, 1.00, 1.00)
+NODE CarteP043 scale=(1.00, 1.00, 1.00)
+NODE CarteP044 scale=(1.00, 1.00, 1.00)
+NODE CarteP045 scale=(1.00, 1.00, 1.00)
+NODE CarteP046 scale=(1.00, 1.00, 1.00)
+NODE CarteP047 scale=(1.00, 1.00, 1.00)
+NODE CarteP048 scale=(1.00, 1.00, 1.00)
+NODE CarteP049 scale=(1.00, 1.00, 1.00)
+NODE CarteP050 scale=(1.00, 1.00, 1.00)
+NODE CarteP051 scale=(1.00, 1.00, 1.00)
+NODE SupportCartes1 scale=(1.00, 1.00, 1.00)
+NODE SupportCartes2 scale=(1.00, 1.00, 1.00)
+NODE SupportCartes3 scale=(1.00, 1.00, 1.00)
+NODE Cache1 scale=(1.00, 1.00, 1.00)
+NODE Cache2 scale=(1.00, 1.00, 1.00)
+NODE Cache3 scale=(1.00, 1.00, 1.00)
+NODE Cache5 scale=(1.00, 1.00, 1.00)
+NODE CacheMisère scale=(1.00, 1.00, 1.00)
+NODE Couvercle1 scale=(1.00, 1.00, 1.00)
+NODE SupportRoulette scale=(1.00, 1.00, 1.00)
+NODE Roulette scale=(1.00, 1.00, 1.00)
+NODE CouvercleD2 scale=(1.00, 1.00, 0.99)
+NODE CouvercleD2bis scale=(1.00, 1.00, 0.99)
+NODE CouvercleFixe scale=(1.00, 1.00, 1.00)
+NODE CouvercleG scale=(1.00, 1.00, 0.99)
+NODE Dé scale=(1.00, 1.00, 1.01)
+NODE Dé2 scale=(1.00, 1.00, 1.01)
+NODE SupportDés scale=(1.00, 1.00, 1.01)
+NODE Machine scale=(1.00, 1.00, 1.00)
+NODE BaseManivelle scale=(1.00, 1.00, 1.00)
+NODE SupportManivelle scale=(1.00, 1.00, 1.00)
+NODE Bouton1 scale=(1.00, 1.00, 1.00)
+NODE Bouton2 scale=(1.00, 1.00, 1.00)
+NODE RoueMachine scale=(1.00, 1.00, 1.00)
+NODE RoueMachine001 scale=(1.00, 1.00, 1.00)
+NODE RoueMachine002 scale=(1.00, 1.00, 1.00)
+NODE PinceBouteille scale=(1.00, 1.00, 1.00)
+NODE Bouteille1_low scale=(1.00, 1.00, 1.00)
+NODE Bouteille2_low scale=(1.00, 1.00, 1.00)
+NODE PinceVerre scale=(1.00, 1.00, 1.00)
+NODE Verre scale=(1.00, 1.00, 1.00)
+NODE SupportBoiteJetons scale=(1.00, 1.00, 1.00)
+NODE BoiteJetons scale=(1.00, 1.00, 1.00)
+NODE Boule scale=(1.00, 1.00, 1.00)
+NODE JetonA scale=(1.00, 1.00, 1.00)
+NODE JetonA001 scale=(1.00, 1.00, 1.00)
+NODE JetonA002 scale=(1.00, 1.00, 1.00)
+NODE JetonA003 scale=(1.00, 1.00, 1.00)
+NODE JetonA004 scale=(1.00, 1.00, 1.00)
+NODE JetonA005 scale=(1.00, 1.00, 1.00)
+NODE JetonA006 scale=(1.00, 1.00, 1.00)
+NODE JetonA007 scale=(1.00, 1.00, 1.00)
+NODE JetonA008 scale=(1.00, 1.00, 1.00)
+NODE JetonA009 scale=(1.00, 1.00, 1.00)
+NODE JetonA010 scale=(1.00, 1.00, 1.00)
+NODE JetonA011 scale=(1.00, 1.00, 1.00)
+NODE JetonA012 scale=(1.00, 1.00, 1.00)
+NODE JetonA013 scale=(1.00, 1.00, 1.00)
+NODE JetonB scale=(1.00, 1.00, 1.00)
+NODE JetonB001 scale=(1.00, 1.00, 1.00)
+NODE JetonB002 scale=(1.00, 1.00, 1.00)
+NODE JetonB003 scale=(1.00, 1.00, 1.00)
+NODE JetonB004 scale=(1.00, 1.00, 1.00)
+NODE JetonB005 scale=(1.00, 1.00, 1.00)
+NODE JetonB006 scale=(1.00, 1.00, 1.00)
+NODE JetonB007 scale=(1.00, 1.00, 1.00)
+NODE JetonB008 scale=(1.00, 1.00, 1.00)
+NODE JetonB009 scale=(1.00, 1.00, 1.00)
+NODE JetonB010 scale=(1.00, 1.00, 1.00)
+NODE JetonB011 scale=(1.00, 1.00, 1.00)
+NODE JetonB012 scale=(1.00, 1.00, 1.00)
+NODE JetonC scale=(1.00, 1.00, 1.00)
+NODE JetonC001 scale=(1.00, 1.00, 1.00)
+NODE JetonC002 scale=(1.00, 1.00, 1.00)
+NODE JetonC003 scale=(1.00, 1.00, 1.00)
+NODE JetonC004 scale=(1.00, 1.00, 1.00)
+NODE JetonC005 scale=(1.00, 1.00, 1.00)
+NODE JetonC006 scale=(1.00, 1.00, 1.00)
+NODE JetonC007 scale=(1.00, 1.00, 1.00)
+NODE JetonC008 scale=(1.00, 1.00, 1.00)
+NODE JetonC009 scale=(1.00, 1.00, 1.00)
+NODE JetonC010 scale=(1.00, 1.00, 1.00)
+NODE JetonC011 scale=(1.00, 1.00, 1.00)
+NODE JetonD scale=(1.00, 1.00, 1.00)
+NODE JetonD001 scale=(1.00, 1.00, 1.00)
+NODE JetonD002 scale=(1.00, 1.00, 1.00)
+NODE JetonD003 scale=(1.00, 1.00, 1.00)
+NODE JetonD004 scale=(1.00, 1.00, 1.00)
+NODE JetonD005 scale=(1.00, 1.00, 1.00)
+NODE JetonD006 scale=(1.00, 1.00, 1.00)
+NODE JetonD007 scale=(1.00, 1.00, 1.00)
+NODE JetonD008 scale=(1.00, 1.00, 1.00)
+NODE JetonD009 scale=(1.00, 1.00, 1.00)
+NODE SupportBoule scale=(1.00, 1.00, 1.00)
+P9 arm scale=(88.00, 88.00, 88.00) rendered=Center: (-0.14, -0.04, -0.04), Extents: (0.42, 0.26, 0.34) bakedY=-22,99548..13,65126
+P9 pistol scale=(88.00, 88.00, 88.00) rendered=Center: (0.00, 0.08, 0.30), Extents: (0.02, 0.16, 0.19) bakedY=-6,196964..9,447263

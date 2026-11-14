@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('LastDeparturePrototype/Scripts/YardSurvival.cs');s=p.read_text(encoding='utf-8-sig');s=s.replace('\n            if (DrawFrontEnd(width, height)) { GUI.matrix = previousMatrix; GUI.color = previousColor; return; }','');needle='GUI.color = Color.white;\n            float width = Screen.width / scale, height = Screen.height / scale;';assert needle in s;s=s.replace(needle,needle+'\n            if (DrawFrontEnd(width, height)) { GUI.matrix = previousMatrix; GUI.color = previousColor; return; }');p.write_text(s,encoding='utf-8')

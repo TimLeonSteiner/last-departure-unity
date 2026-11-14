@@ -1,0 +1,1 @@
+mergeInto(LibraryManager.library,{D27_CoopQAState:function(pointer){window.dustlineQA=JSON.parse(UTF8ToString(pointer));window.dustlineQATime=Date.now();var pre=document.getElementById("coop-qa-state");if(pre)pre.textContent=JSON.stringify(window.dustlineQA,null,2);}});

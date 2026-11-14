@@ -1,0 +1,50 @@
+[
+  {
+    "weapon": "P12",
+    "source": "Audio\\Weapon_Impact\\P12_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "M4_Service",
+    "source": "Audio\\ElevenLabs_M4_Impact\\M4_Service_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "Scout",
+    "source": "Audio\\Weapon_Impact\\Scout_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "M60",
+    "source": "Audio\\Weapon_Impact\\M60_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "AK47",
+    "source": "Audio\\AdditionalWeapons\\AK47_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "Shotgun",
+    "source": "Audio\\AdditionalWeapons\\Shotgun_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "Suomi_KP",
+    "source": "Audio\\AdditionalWeapons\\Suomi_KP_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  },
+  {
+    "weapon": "Grease_Gun",
+    "source": "Audio\\AdditionalWeapons\\Grease_Gun_Shot_01.wav",
+    "tail_seconds": 1.7399583333333333,
+    "peak": 0.55
+  }
+]

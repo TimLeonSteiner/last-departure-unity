@@ -1,4 +1,0 @@
-animated-pistol (1) by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/bd896167e7ca44f19597d3afe6a8d83f
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

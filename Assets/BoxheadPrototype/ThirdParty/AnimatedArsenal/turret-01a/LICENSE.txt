@@ -1,4 +1,0 @@
-Turret_01a by flashn7
-https://sketchfab.com/3d-models/turret-01a-637b1ac54a34467cb54bd20989e67acd
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: DAE import, URP PBR material, scale normalization, mesh partition into a stationary base and rotating gun.

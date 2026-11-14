@@ -1,4 +1,0 @@
-heavyrifle-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/0f0f27acdcb94ba5bd94a04a927ae850
-CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.

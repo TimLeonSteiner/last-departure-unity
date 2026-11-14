@@ -1,5 +1,0 @@
-Actual new Meshy Charger (Rustmaw Titan), imported from the existing textured remesh FBX. This is not the older roster or the rejected solid-cloud experiment.
-Prefab: Assets/BoxheadPrototype/Resources/MeshyDreamZombies/Charger.prefab
-Prefab includes NightmareAppearance; SetAmount(amount, perceptionClock) controls the drifting veil and material transition. Normal detail is retained by the dream material.
-Verified on this model: shader rendering, smoke creation/motion, frozen clock, wake cleanup, original material restoration and repeated transitions. Review images and checks: Assets/Verification~/MeshyDreamCharger/.
-This local source is unrigged. It is a visual prefab, not yet wired into the combat spawn roster. Charge/jump/death animations and combat integration remain pending. Other new Meshy models have not yet received visual-prefab integration in this pass.

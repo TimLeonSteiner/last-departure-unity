@@ -1,4 +1,0 @@
-shotgun-animated by DJMaesen (bumstrum)
-https://sketchfab.com/3d-models/963e540358b84ca9b72a5e4d59acd57c
-CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
-Adaptations: URP materials, FPS alignment and animation range playback.
