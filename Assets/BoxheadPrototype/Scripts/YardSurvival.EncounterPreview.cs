@@ -47,8 +47,11 @@ namespace YardSurvivalPrototype
 
             if (current.type == EventType.Repaint)
                 DrawEncounterComposite(area);
-            PauseLabel(new Rect(area.x + 18, area.yMax - 39, area.width - 36, 30),
+            var previousAlignment = archiveSmall.alignment;
+            archiveSmall.alignment = TextAnchor.MiddleCenter;
+            PauseLabel(new Rect(area.x, area.yMax - 39, area.width, 30),
                 "DRAG TO ROTATE", archiveSmall, PauseInk);
+            archiveSmall.alignment = previousAlignment;
             return true;
         }
 
@@ -129,13 +132,10 @@ namespace YardSurvivalPrototype
             {
                 if (filter.sharedMesh == null || !filter.TryGetComponent<MeshRenderer>(out var renderer) || !renderer.enabled)
                     continue;
-                var meshBounds = filter.sharedMesh.bounds;
-                for (int x = -1; x <= 1; x += 2)
-                for (int y = -1; y <= 1; y += 2)
-                for (int z = -1; z <= 1; z += 2)
+                var vertices = filter.sharedMesh.vertices;
+                foreach (int vertex in filter.sharedMesh.triangles)
                 {
-                    var corner = meshBounds.center + Vector3.Scale(meshBounds.extents, new Vector3(x, y, z));
-                    IncludePoint(encounterPreviewPivot.InverseTransformPoint(filter.transform.TransformPoint(corner)));
+                    IncludePoint(encounterPreviewPivot.InverseTransformPoint(filter.transform.TransformPoint(vertices[vertex])));
                 }
             }
             var baked = new Mesh();
@@ -144,9 +144,12 @@ namespace YardSurvivalPrototype
                 if (!skin.enabled || skin.sharedMesh == null) continue;
                 skin.updateWhenOffscreen = true;
                 skin.BakeMesh(baked);
-                foreach (var vertex in baked.vertices)
+                // Split body meshes retain unused vertices from the source model.
+                // Only visible triangles should determine the display height.
+                var vertices = baked.vertices;
+                foreach (int vertex in baked.triangles)
                 {
-                    var point = encounterPreviewPivot.InverseTransformPoint(skin.transform.TransformPoint(vertex));
+                    var point = encounterPreviewPivot.InverseTransformPoint(skin.transform.TransformPoint(vertices[vertex]));
                     IncludePoint(point);
                 }
             }
@@ -158,7 +161,9 @@ namespace YardSurvivalPrototype
                 return;
             }
 
-            const float displayHeight = 2f;
+            // The Brute's crouched display pose reads shorter than the upright
+            // specimens. Calibrate only this inspection copy to their head height.
+            float displayHeight = EncounterId(index) == "04-Cargo-Brute" ? 2.5f : 2f;
             model.transform.localPosition -= new Vector3(bounds.center.x, bounds.min.y, bounds.center.z);
             encounterPreviewPivot.localScale = Vector3.one * (displayHeight / bounds.size.y);
             encounterPreviewPivot.localRotation = Quaternion.Euler(0, 165, 0);
@@ -172,7 +177,8 @@ namespace YardSurvivalPrototype
             AddEncounterLight(stage, new Vector3(2.5f, 2.3f, 1.2f), new Color(1f, .22f, .12f), 22, false);
             AddEncounterLight(stage, new Vector3(1.8f, 1.5f, -2.7f), new Color(.59f, .74f, 1f), 12, false);
 
-            encounterPreviewTarget = new RenderTexture(660, 968, 24, RenderTextureFormat.ARGB32) { name = "Encounters specimen preview" };
+            encounterPreviewTarget = new RenderTexture(990, 1452, 24, RenderTextureFormat.ARGB32) { name = "Encounters specimen preview", filterMode = FilterMode.Bilinear };
+            UpdateGraphicsResolution();
             var camera = new GameObject("Specimen camera").AddComponent<Camera>();
             camera.transform.SetParent(stage, false);
             camera.transform.localPosition = new Vector3(0, 2.38f, -5);
@@ -320,6 +326,7 @@ namespace YardSurvivalPrototype
             encounterPreviewShadow = null;
             encounterPreviewDeck = null;
             encounterPreviewIndex = -1;
+            UpdateGraphicsResolution();
         }
     }
 }

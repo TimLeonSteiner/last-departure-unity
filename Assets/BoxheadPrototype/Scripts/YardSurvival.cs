@@ -983,12 +983,11 @@ namespace YardSurvivalPrototype
         void SetUpAudio()
         {
             LoadAudioSettings();
-            var musicObject = new GameObject("Imported adaptive soundtrack"); musicObject.transform.SetParent(transform, false);
-            radio = musicObject.AddComponent<AudioSource>(); radio.clip = openingMusic;
+            var audioManager = GameAudioManager.GetOrCreate(transform);
+            radio = audioManager.Music; radio.clip = openingMusic;
             radio.loop = true; radio.playOnAwake = false; radio.spatialBlend = 0; radio.volume = .42f * musicVolume;
             SetUpAdaptiveAudio();
-            var effectsObject = new GameObject("Game sound effects"); effectsObject.transform.SetParent(transform, false);
-            effects = effectsObject.AddComponent<AudioSource>(); effects.playOnAwake = false; effects.spatialBlend = 0; effects.volume = .7f * soundVolume;
+            effects = audioManager.Effects; effects.volume = .7f * soundVolume;
             SetUpMovementAudio();
             SetUpWarehouseAudio();
             SetUpPlayerDamageVoice();
@@ -1022,7 +1021,7 @@ namespace YardSurvivalPrototype
         }
         void PlayEffect(AudioClip clip, float gain)
         {
-            if (soundEnabled && audioUnlocked && effects != null && clip != null) effects.PlayOneShot(clip, gain);
+            if (soundEnabled && audioUnlocked && effects != null && GameAudioManager.Instance != null) GameAudioManager.Instance.PlayEffect(clip, gain);
         }
 
         static readonly Color HudWhite = new Color(.91f, .9f, .85f);

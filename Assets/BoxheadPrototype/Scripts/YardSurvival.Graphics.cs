@@ -79,7 +79,7 @@ namespace YardSurvivalPrototype
             {
                 // The wrist canvas is rendered by the world camera. Keep its
                 // lettering at output resolution while the menu owns the pause.
-                graphicsPipeline.renderScale = HologramBlocking
+                graphicsPipeline.renderScale = HologramBlocking || encounterPreviewStage != null
                     ? 1f
                     : GraphicsScale(graphicsPreset, graphicsWidth, graphicsHeight);
             }

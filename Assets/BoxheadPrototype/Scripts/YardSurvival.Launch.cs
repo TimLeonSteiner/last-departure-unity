@@ -107,6 +107,8 @@ namespace YardSurvivalPrototype
                 readyVideo.playOnAwake = false;
                 readyVideo.source = VideoSource.VideoClip;
                 readyVideo.clip = readyClip;
+                // Keep the complete authored fade while reaching the menu one second sooner.
+                readyVideo.playbackSpeed = (float)readyClip.length / Mathf.Max(.5f, (float)readyClip.length - 1f);
                 readyVideo.renderMode = VideoRenderMode.APIOnly;
                 readyVideo.audioOutputMode = VideoAudioOutputMode.None;
                 readyVideo.isLooping = false;
@@ -198,8 +200,8 @@ namespace YardSurvivalPrototype
             }
             // Let the authored fade finish; retain a timeout if the decoder stalls.
             bool readyFinished = hasReadyVideo
-                ? readyVideoEnded || elapsed >= (float)readyVideo.clip.length + 3f
-                : elapsed >= LaunchDuration - .75f;
+                ? readyVideoEnded || elapsed >= (float)readyVideo.clip.length / readyVideo.playbackSpeed + 3f
+                : elapsed >= LaunchDuration - 1.75f;
             if (launchExitAt < 0 && (readyFinished || (elapsed > .5f && pressed)))
             {
                 launchExitAt = Time.unscaledTime;
@@ -225,6 +227,8 @@ namespace YardSurvivalPrototype
         void StopLaunchSounds()
         {
             RestoreLaunchRendering();
+            if (launchVideo != null) launchVideo.Stop();
+            if (readyVideo != null) readyVideo.Stop();
             if (launchSting != null) launchSting.Stop();
             if (launchTransition != null) launchTransition.Stop();
             if (launchMusic != null) launchMusic.Stop();
@@ -237,12 +241,16 @@ namespace YardSurvivalPrototype
             float exit = launchExitAt < 0 ? 0 : Mathf.SmoothStep(0,1,Mathf.Clamp01((Time.unscaledTime-launchExitAt)/.75f));
             float elapsed = launchStartedAt < 0 ? 0 : Time.unscaledTime-launchStartedAt;
             float hit = launchStartedAt < 0 ? 0 : Mathf.Exp(-elapsed*12);
-            if (exit > 0)
+            if (launchExitAt >= 0)
             {
                 bool enabled = GUI.enabled;
                 GUI.enabled = false;
                 DrawHomeScreen(width,height);
                 GUI.enabled = enabled;
+                // The ready clip already faded to black. Reveal only the menu;
+                // drawing the idle video/poster here would flash the title again.
+                Fill(new Rect(0, 0, width, height), new Color(0, 0, 0, 1-exit));
+                return;
             }
             Fill(new Rect(0, 0, width, height), new Color(.008f, .009f, .011f,1-exit));
             Texture artwork = launchVideo != null && launchVideo.isPrepared && launchVideo.frame >= 0 && launchVideo.texture != null
@@ -250,23 +258,26 @@ namespace YardSurvivalPrototype
             if (artwork != null)
             {
                 Color previousColor = GUI.color;
-                // Fit the engraved title as one image so narrow displays never crop its letters.
+                // Cover the viewport without stretching or pillarboxing.
                 float backgroundZoom = 1;
                 float drift = 0;
                 GUI.color = new Color(1, 1, 1, 1-exit);
                 GUI.DrawTexture(new Rect((width-width*backgroundZoom)*.5f+drift,
                     (height-height*backgroundZoom)*.5f, width*backgroundZoom, height*backgroundZoom),
-                    artwork, ScaleMode.ScaleToFit);
+                    artwork, ScaleMode.ScaleAndCrop);
                 if (readyBlendStartedAt >= 0 && readyVideo != null && !readyVideoFailed && readyVideo.texture != null)
                 {
                     float blend = Mathf.SmoothStep(0, 1, (Time.unscaledTime-readyBlendStartedAt)/.22f);
                     GUI.color = new Color(1, 1, 1, blend*(1-exit));
-                    GUI.DrawTexture(new Rect(0,0,width,height), readyVideo.texture, ScaleMode.ScaleToFit);
+                    GUI.DrawTexture(new Rect(0,0,width,height), readyVideo.texture, ScaleMode.ScaleAndCrop);
                 }
                 GUI.color = previousColor;
             }
             Fill(new Rect(0, 0, width, height), new Color(.008f, .009f, .011f,
                 (artwork != null ? .025f : .94f)*(1-exit)));
+            // Shade in viewport coordinates, before the fitted prompt canvas.
+            if (launchStartedAt < 0 && Event.current.type == EventType.Repaint)
+                DrawLaunchFloorShade(width, height);
             float scale = Mathf.Min(width / 1672f, height / 941f);
             GUI.matrix = previous * Matrix4x4.TRS(new Vector3((width-1672*scale)*.5f, (height-941*scale)*.5f, 0), Quaternion.identity, Vector3.one*scale);
             try
@@ -309,7 +320,6 @@ namespace YardSurvivalPrototype
                 {
                     float time = Time.unscaledTime;
                     float pulse = .5f + .5f * Mathf.Sin(time * 2f);
-                    DrawLaunchFloorShade();
                     var prompt = new Rect(612f, 809f, 448f, 112f);
                     // Sample in short steps so the jitter reads as a slight signal twitch.
                     float step = Mathf.Floor(time * 18f) / 18f;
@@ -328,7 +338,7 @@ namespace YardSurvivalPrototype
             finally { GUI.matrix = previous; }
         }
 
-        void DrawLaunchFloorShade()
+        void DrawLaunchFloorShade(float width, float height)
         {
             if (launchFloorShade == null)
             {
@@ -345,7 +355,8 @@ namespace YardSurvivalPrototype
                 }
                 launchFloorShade.Apply(false, true);
             }
-            GUI.DrawTexture(new Rect(0, 672, 1672, 269), launchFloorShade, ScaleMode.StretchToFill, true);
+            float shadeHeight = height * (269f / 941f);
+            GUI.DrawTexture(new Rect(0, height - shadeHeight, width, shadeHeight), launchFloorShade, ScaleMode.StretchToFill, true);
         }
 
         void DrawGlowingLaunchPrompt(Rect prompt, float pulse)

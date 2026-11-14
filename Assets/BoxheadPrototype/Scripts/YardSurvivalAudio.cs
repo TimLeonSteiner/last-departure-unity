@@ -194,8 +194,7 @@ namespace YardSurvivalPrototype
                     if(bank.clips!=null)foreach(var clip in bank.clips)
                         if(clip!=null&&clip.loadState==AudioDataLoadState.Unloaded)clip.LoadAudioData();
                 }
-            var obj = new GameObject("Adaptive soundtrack crossfade"); obj.transform.SetParent(transform, false);
-            musicB = obj.AddComponent<AudioSource>(); musicB.playOnAwake = false; musicB.loop = true; musicB.spatialBlend = 0; musicB.volume = 0;
+            musicB = GameAudioManager.GetOrCreate(transform).CrossfadeMusic; musicB.volume = 0;
             for (int i = 0; i < 24 + HordeVoiceCount; i++)
             {
                 var voiceObject = new GameObject("Zombie audio voice " + i); voiceObject.transform.SetParent(transform, false);

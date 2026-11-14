@@ -14,7 +14,7 @@ namespace YardSurvivalPrototype
         const float EncounterRowHeight = 98f;
         float EncounterContentHeight => Mathf.Max(0, (EncounterCount - 1) * EncounterRowPitch + EncounterRowHeight);
         [System.NonSerialized] GUIStyle archiveTitle, archiveBody, archiveSmall, archiveName, archiveRow;
-        Texture2D archiveBackdrop, specimenArtwork;
+        Texture2D archiveBackdrop, specimenArtwork, bruteArtwork;
         // Review tools can exercise unlocked layouts without changing the player's save.
 #if UNITY_EDITOR
         bool encounterReviewUnlocked;
@@ -181,8 +181,19 @@ namespace YardSurvivalPrototype
         }
         void DrawSpecimenArt(Rect rect,int index,bool portrait=false,bool silhouette=false)
         {
-            if(specimenArtwork==null || index<0)return;
-            if (EncounterId(index) == "04-Cargo-Brute") return;
+            if(index<0)return;
+            if (EncounterId(index) == "04-Cargo-Brute")
+            {
+                if (bruteArtwork == null) bruteArtwork = Resources.Load<Texture2D>("Encounters/04-Cargo-Brute");
+                if (bruteArtwork == null) return;
+                Color tint = GUI.color;
+                if (silhouette) GUI.color = new Color(.035f,.035f,.04f,1);
+                if (portrait) GUI.DrawTextureWithTexCoords(rect, bruteArtwork, new Rect(.25f,.56f,.50f,.28f), true);
+                else GUI.DrawTexture(rect, bruteArtwork, ScaleMode.ScaleToFit, true);
+                GUI.color = tint;
+                return;
+            }
+            if(specimenArtwork==null)return;
             Rect uv=SpecimenUV(index);
             if(portrait)
             {

@@ -30,7 +30,7 @@ public static class WindowsReleaseBuild
         if (File.Exists(Request))
         {
             string request = File.ReadAllText(Request).Trim(); File.Delete(Request);
-            SessionState.SetString(OutputKey, request == "hotbar-update" ? "LastDeparture-Windows-HotbarUpdate" : request == "full-roof" ? "LastDeparture-Windows-FullRoof" : request == "roof-update" ? "LastDeparture-Windows-RoofUpdate" : "LastDeparture-Windows");
+            SessionState.SetString(OutputKey, request == "menu-fix" ? "LastDeparture-Windows-MenuFix" : request == "hotbar-update" ? "LastDeparture-Windows-HotbarUpdate" : request == "full-roof" ? "LastDeparture-Windows-FullRoof" : request == "roof-update" ? "LastDeparture-Windows-RoofUpdate" : "LastDeparture-Windows");
             RequestBuild();
         }
         if (!SessionState.GetBool(Pending, false)) return;
