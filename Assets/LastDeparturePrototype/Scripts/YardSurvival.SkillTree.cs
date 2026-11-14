@@ -111,7 +111,7 @@ namespace YardSurvivalPrototype
             // Three branching paths, with empty lanes reserved for the wires.
             Vector2[] sockets = {
                 new Vector2(280,310), new Vector2(280,230), new Vector2(390,230),
-                new Vector2(460,310), new Vector2(460,390), new Vector2(570,390),
+                new Vector2(390,310), new Vector2(390,390), new Vector2(MasteryPosition.x,390),
                 new Vector2(670,310), new Vector2(670,230), new Vector2(560,230)
             };
             return sockets[skill % 3 * SkillMaxRank + rank];
@@ -155,10 +155,7 @@ namespace YardSurvivalPrototype
                 var mastery = new Rect(MasteryPosition.x - 29, MasteryPosition.y - 22, 58, 44);
                 ConnectCircuitNodes(CircuitNodePosition(branch * 3, 2), MasteryPosition, mastered ? tones[0] : wire);
                 Vector2 reloadEnd = CircuitNodePosition(branch * 3 + 1, 2);
-                Vector2 reloadTurn = new Vector2(MasteryPosition.x + 34, reloadEnd.y);
-                SkillTreeLink(reloadEnd + Vector2.left * 24, reloadTurn, mastered ? tones[1] : wire);
-                SkillTreeLink(reloadTurn, new Vector2(reloadTurn.x, MasteryPosition.y + 23), mastered ? tones[1] : wire);
-                SkillTreeLink(new Vector2(reloadTurn.x, MasteryPosition.y + 23), new Vector2(MasteryPosition.x, MasteryPosition.y + 23), mastered ? tones[1] : wire);
+                ConnectCircuitNodes(reloadEnd, MasteryPosition, mastered ? tones[1] : wire);
                 ConnectCircuitNodes(CircuitNodePosition(branch * 3 + 2, 2), MasteryPosition, mastered ? tones[2] : wire);
                 HoloBox(mastery, mastered ? new Color(.11f,.22f,.25f,1) : new Color(.025f,.065f,.08f,1));
                 HoloFrame(mastery, mastered ? bright : wire);
